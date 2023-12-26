@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
+import Link from "next/link";
 
 const NewsFeed = () => {
   const [show, setShow] = useState(true);
@@ -39,7 +40,74 @@ const NewsFeed = () => {
 
   return (
     <>
-      {show ? (
+      <div class="border-b border-sold-out/50 bg-grayish">
+        <div class="grid-container overflow-x-hidden px-3 py-2 md:py-3 lg:px-0 lg:py-4">
+          <ul
+            style={{ transform: 'translateX(-200%)' }}
+            class="flex items-center transition-transform xl:gap-x-[4.5rem] xl:transition-none duration-[0ms]2 duration-500"
+          >
+            <li class="w-full shrink-0 text-center text-xs before:mr-2 before:text-primary before:content-['\2713'] md:text-base xl:flex xl:w-auto xl:items-center xl:justify-center xl:text-left">
+              <span>
+                <a
+                  href="/"
+                  class=""
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <strong class="font-bold">Free shipping</strong> for orders
+                  over €75,-
+                </a>
+              </span>
+            </li>
+            <li class="w-full shrink-0 text-center text-xs before:mr-2 before:text-primary before:content-['\2713'] md:text-base xl:flex xl:w-auto xl:items-center xl:justify-center xl:text-left">
+              <span>
+                <a class="" href="/">
+                  30 days PLNTS{" "}
+                  <strong class="font-bold">health guarantee</strong>
+                </a>
+              </span>
+            </li>
+            <li class="w-full shrink-0 text-center text-xs before:mr-2 before:text-primary before:content-['\2713'] md:text-base xl:flex xl:w-auto xl:items-center xl:justify-center xl:text-left">
+              <span>
+                <a
+                  href="/"
+                  class=""
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <strong class="font-bold">4.6/5</strong> out of{" "}
+                  <strong class="font-bold">18,700+ reviews</strong>
+                </a>
+              </span>
+            </li>
+            <li class="w-full shrink-0 text-center text-xs before:mr-2 before:text-primary before:content-['\2713'] md:text-base xl:flex xl:w-auto xl:items-center xl:justify-center xl:text-left xl:invisible 3xl:visible">
+              <span>
+                <a
+                  href="/"
+                  class=""
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  Ordered on weekdays before{" "}
+                  <strong class="font-bold">12pm</strong>, shipped today
+                </a>
+              </span>
+            </li>
+            <li class=" w-full shrink-0 text-center text-xs before:mr-2 before:text-primary before:content-['\2713'] md:text-base xl:hidden ">
+              <a
+                href="/"
+                class=""
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <strong class="font-bold">Free shipping</strong> for orders over
+                €75,-
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      {/* {show ? (
         <div className="relative w-full overflow-hidden overflow-x-auto flex z-20 justify-center mt-0 px-3 md:px-6 py-3 bg-black">
           {news.map((ne, index) => {
             return (
@@ -76,7 +144,7 @@ const NewsFeed = () => {
         <>
           <div className="mt-0"></div>
         </>
-      )}
+      )} */}
     </>
   );
 };
