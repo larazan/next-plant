@@ -1,17 +1,28 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-import ava1 from "@/assets/ava1.svg";
-import ava2 from "@/assets/ava2.svg";
-import ava3 from "@/assets/ava3.svg";
-import ava4 from "@/assets/ava4.svg";
-import ava5 from "@/assets/ava5.png";
-import ava6 from "@/assets/ava6.png";
-import ava7 from "@/assets/ava7.png";
-import ava8 from "@/assets/ava8.png";
-import ava9 from "@/assets/ava9.png";
-import ava10 from "@/assets/ava10.png";
-import pro from "@/assets/product/pro1.png";
+import ava1 from "@/assets/img/ava1.svg";
+import ava2 from "@/assets/img/ava2.svg";
+import ava3 from "@/assets/img/ava3.svg";
+import ava4 from "@/assets/img/ava4.svg";
+import ava5 from "@/assets/img/ava5.png";
+import ava6 from "@/assets/img/ava6.png";
+import ava7 from "@/assets/img/ava7.png";
+import ava8 from "@/assets/img/ava8.png";
+import ava9 from "@/assets/img/ava9.png";
+import ava10 from "@/assets/img/ava10.png";
+
+import review from "@/assets/reviews/review.png";
+import review1 from "@/assets/reviews/review1.png";
+import review2 from "@/assets/reviews/review2.png";
+import review3 from "@/assets/reviews/review3.png";
+import review4 from "@/assets/reviews/review4.png";
+import review5 from "@/assets/reviews/review5.png";
+import review6 from "@/assets/reviews/review6.png";
+import review7 from "@/assets/reviews/review7.png";
+import review8 from "@/assets/reviews/review8.png";
+import review9 from "@/assets/reviews/review9.png";
+import review10 from "@/assets/reviews/review10.png";
 
 import ModalReview from "./ModalReview";
 
@@ -22,42 +33,48 @@ const Review = () => {
     {
       name: "Flean W.",
       location: "New york",
-      img: ava5,
+      ava: ava5,
+      img: review1,
       testimoni:
         "I've been trying to work on my Common App for a while now, and felt like my ECs were lacking a little. IvyStat helped me into volunteership that then transitioned into an internship. This was the first time I got to work alongside other peers at an actual company. My experience was very valuable and helped me build a really good college application❤️",
     },
     {
       name: "Sharon Blackwell",
       location: "New york",
-      img: ava6,
+      ava: ava6,
+      img: review2,
       testimoni:
         "Ivy Stat made it really easy for me to apply to other freelance gig sites like Upwork. It was very hard to get into video editing without them since I didn't possess the necessary experience to showcase on these platforms.",
     },
     {
       name: "Cole A.",
       location: "New york",
-      img: ava7,
+      ava: ava7,
+      img: review3,
       testimoni:
         "After a couple unpaid internships, it was super clear that companies just wanted to exploit child labour and look good on paper to show that they're hiring interns. Ivy Stat didn't just teach us a lot, but actually helped me start my own SEO service and even get customers connected to me. I will one day return the favour 🙏",
     },
     {
       name: "Kartik S. Kapoor",
       location: "New york",
-      img: ava8,
+      ava: ava8,
+      img: review4,
       testimoni:
         "I was always looking to learn coding and all, but had no idea how to actually apply my skills into a real world scenario. With Ivy Stat, I could finally get a sense of direction and even got to work on a Chrome plug-in that helped me get my first ever internship ever!",
     },
     {
       name: "Tim Zhou",
       location: "New york",
-      img: ava9,
+      ava: ava9,
+      img: review5,
       testimoni:
         "I've been working as a Target cashier for a couple months now, and this experience with Ivy Stat has really shown me a much better way to utilise my free time to make money. I'm thankful for all the tips and especially the resume I got from the program.",
     },
     {
       name: "Cerila Smith",
       location: "New york",
-      img: ava10,
+      ava: ava10,
+      img: review6,
       testimoni:
         "Wow! This was an incredible program! From the evening calls with other students across the world to the incredible resume building activity, this program was a total success. I will greatly miss everyone at Ivy Stat and am looking forward to keep on having more internships and paving me name in the industry!!!",
     },
@@ -272,12 +289,12 @@ const Review = () => {
                   >
                     <div className="flex flex-col space-y-3 px-0 w-full">
                       <div className="flex justify-center items-center bg-white">
-                        <Image src={pro} alt="" className="rounded-t w-full" />
+                        <Image src={data.img} alt="" className="rounded-t w-full" />
                       </div>
                       <div className="flex space-x-3 px-3 w-full">
                         <div className="flex justify-center items-center">
                           <Image
-                            src={data.img}
+                            src={data.ava}
                             alt=""
                             className="rounded-full w-10 md:w-14"
                           />
