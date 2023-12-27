@@ -12,17 +12,17 @@ import ava8 from "@/assets/img/ava8.png";
 import ava9 from "@/assets/img/ava9.png";
 import ava10 from "@/assets/img/ava10.png";
 
-import review from "@/assets/reviews/review.png";
-import review1 from "@/assets/reviews/review1.png";
-import review2 from "@/assets/reviews/review2.png";
-import review3 from "@/assets/reviews/review3.png";
-import review4 from "@/assets/reviews/review4.png";
-import review5 from "@/assets/reviews/review5.png";
-import review6 from "@/assets/reviews/review6.png";
-import review7 from "@/assets/reviews/review7.png";
-import review8 from "@/assets/reviews/review8.png";
-import review9 from "@/assets/reviews/review9.png";
-import review10 from "@/assets/reviews/review10.png";
+import review from "@/assets/reviews/review.jpg";
+import review1 from "@/assets/reviews/review1.jpg";
+import review2 from "@/assets/reviews/review2.jpg";
+import review3 from "@/assets/reviews/review3.jpg";
+import review4 from "@/assets/reviews/review4.jpg";
+import review5 from "@/assets/reviews/review5.jpg";
+import review6 from "@/assets/reviews/review6.jpg";
+import review7 from "@/assets/reviews/review7.jpg";
+import review8 from "@/assets/reviews/review8.jpg";
+import review9 from "@/assets/reviews/review9.jpg";
+import review10 from "@/assets/reviews/review10.jpg";
 
 import ModalReview from "./ModalReview";
 
@@ -275,7 +275,7 @@ const Review = () => {
               <></>
             )}
 
-            <div className="columns-2 md:columns-3 lg:columns-3 gap-3 md:gap-6 mt-4 mb-4 md:mt-8 md:mb-8 mx-auto py-6 w-full px-3 md:px-0 md:w-11/12 ">
+            <div className="columns-2 md:columns-3 lg:columns-3 gap-3 md:gap-6 mt-4 mb-4 md:mt-8 md:mb-8 mx-auto py-6 w-full px-3 md:px-0 md:w-12/12 ">
               {shout.map((data, index) => {
                 return (
                   <div

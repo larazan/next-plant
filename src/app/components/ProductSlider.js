@@ -1,9 +1,12 @@
+"use client"
+
 import React, { useState } from "react";
 import Image from "next/image";
 
-import detail1 from "@/assets/product/detail1.png";
-import detail2 from "@/assets/product/detail2.png";
-import detail3 from "@/assets/product/detail3.png";
+import detail1 from "@/assets/detail/detail1.png";
+import detail2 from "@/assets/detail/detail2.png";
+import detail3 from "@/assets/detail/detail3.png";
+import detail4 from "@/assets/detail/detail4.png";
 
 const ProductSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -34,6 +37,9 @@ const ProductSlider = () => {
     {
       url: detail3,
     },
+    {
+      url: detail4,
+    },
   ];
 
   return (
@@ -46,7 +52,7 @@ const ProductSlider = () => {
           <Image src={slides[currentIndex].url} alt="" className="h-full object-cover" />
         </div>
         {/* Left Arrow */}
-        <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full px-1.5 py-.5 bg-black/20 hover:bg-gray-700 text-white cursor-pointer">
+        <div className="hidden group-hover:flex items-center absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full px-1.5 py-1.5 bg-black/20 hover:bg-gray-700 text-white cursor-pointer">
           <button onClick={prevSlide}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +60,7 @@ const ProductSlider = () => {
               viewBox="0 0 24 24"
               strokeWidth={2}
               stroke="currentColor"
-              className="w-5 h-5"
+              className="w-6 h-6"
             >
               <path
                 strokeLinecap="round"
@@ -65,7 +71,7 @@ const ProductSlider = () => {
           </button>
         </div>
         {/* Right Arrow */}
-        <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full px-1.5 py-.5 bg-black/20 hover:bg-gray-700 text-white cursor-pointer">
+        <div className="hidden group-hover:flex items-center absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full px-1.5 py-1.5 bg-black/20 hover:bg-gray-700 text-white cursor-pointer">
           <button onClick={nextSlide}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +79,7 @@ const ProductSlider = () => {
               viewBox="0 0 24 24"
               strokeWidth={2}
               stroke="currentColor"
-              className="w-5 h-5"
+              className="w-6 h-6"
             >
               <path
                 strokeLinecap="round"

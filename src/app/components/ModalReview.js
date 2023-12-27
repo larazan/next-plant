@@ -1,11 +1,10 @@
 import React, { useRef, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Transition from "@/utils/Transition";
+import Transition from "@/app/utils/Transition";
 
-import pro from "@/assets/product/pro1.png"
-import detail1 from "@/assets/product/detail1.png"
-// import obsolete from "@/img/products/obsolete.jpg";
+import detail1 from "@/assets/reviews/review.jpg"
+// import detail1 from "@/assets/product/detail1.png"
 
 function ModalReview({ id, modalOpen, setModalOpen }) {
   const modalContent = useRef(null);
