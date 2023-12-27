@@ -1,9 +1,12 @@
+"use client"
+
 import React, { useState } from "react";
 import Image from "next/image";
 
-import slide1 from "@/assets/slides/slide1.jpeg"
-import slide2 from "@/assets/slides/slide2.jpg"
-import slide3 from "@/assets/promo.jpeg"
+import slide1 from "@/assets/slides/slide1.png"
+import slide2 from "@/assets/slides/slide2.png"
+import slide3 from "@/assets/slides/slide3.png"
+import slide4 from "@/assets/slides/slide4.png"
 
 const Slideshow = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -34,6 +37,9 @@ const Slideshow = () => {
     {
       url: slide3
     },
+    {
+      url: slide4
+    },
   ];
 
   return (
@@ -43,7 +49,7 @@ const Slideshow = () => {
           // style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
           className="w-full h-full rounded-2xl bg-center bg-cover object-cover duration-500"
         >
-          <Image src={slides[currentIndex].url} alt="" className="md:h-[350px]" />
+          <Image src={slides[currentIndex].url} alt="" className="md:h-[500px]" />
         </div>
         {/* Left Arrow */}
         <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full px-1.5 py-.5 bg-black/20 text-white cursor-pointer">

@@ -3,10 +3,10 @@ import React from 'react'
 const SortOpt = () => {
   return (
     <>
-      <div class=" col-span-full col-start-1 flex flex-wrap items-center justify-between gap-2 md:col-start-5 md:flex-nowrap xl:col-start-4 xl:col-end-12 ">
-        <div class="flex flex-row items-center justify-between gap-3">
-          <span class="flex-none">sort by:</span>
-          <select class="w-full py-1 xl:py-2 focus:border-primary focus:ring focus:ring-inset focus:ring-primary disabled:bg-grayish disabled:bg-none h-full rounded-full pr-8 text-sm leading-none">
+      <div className=" col-span-full col-start-1 flex flex-wrap items-center justify-between gap-2 md:col-start-5 md:flex-nowrap xl:col-start-4 xl:col-end-12 ">
+        <div className="flex flex-row items-center justify-between gap-3">
+          <span className="flex-none">sort by:</span>
+          <select className="w-full py-1 xl:py-2 focus:border-primary focus:ring focus:ring-inset focus:ring-primary disabled:bg-grayish disabled:bg-none h-full border border-gray-400 px-2 rounded-full pr-2 text-sm leading-none">
             <option value="default" selected="">
               recommended sorting
             </option>
