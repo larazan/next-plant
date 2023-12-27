@@ -5,12 +5,14 @@ import Image from "next/image";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import GoTop from "../components/GoTop";
 
 import about from "@/assets/img/about.png";
 import about1 from "@/assets/img/about1.png";
 import about2 from "@/assets/img/about2.png";
 import about3 from "@/assets/img/about3.png";
 import about4 from "@/assets/img/about4.png";
+
 
 export default function About() {
   return (
@@ -21,7 +23,7 @@ export default function About() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-
+<GoTop />
       <div>
         <Image src={about} alt="" />
       </div>

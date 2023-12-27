@@ -52,7 +52,7 @@ const Slideshow = () => {
           <Image src={slides[currentIndex].url} alt="" className="md:h-[500px]" />
         </div>
         {/* Left Arrow */}
-        <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full px-1.5 py-.5 bg-black/20 text-white cursor-pointer">
+        <div className="flex items-center absolute top-[50%] -translate-x-1 translate-y-[-50%] left-0 text-2xl rounded-r px-1.5 py-2 bg-black/20 hover:bg-black/30 text-white cursor-pointer">
           <button onClick={prevSlide}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,7 @@ const Slideshow = () => {
               viewBox="0 0 24 24"
               strokeWidth={2}
               stroke="currentColor"
-              className="w-5 h-5"
+              className="w-9 h-9"
             >
               <path
                 strokeLinecap="round"
@@ -71,7 +71,7 @@ const Slideshow = () => {
           </button>
         </div>
         {/* Right Arrow */}
-        <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full px-1.5 py-.5 bg-black/20 text-white cursor-pointer">
+        <div className="flex items-center absolute top-[50%] -translate-x-0 translate-y-[-50%] right-0 text-2xl rounded-l px-1.5 py-2 bg-black/20 hover:bg-black/30 text-white cursor-pointer">
           <button onClick={nextSlide}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +79,7 @@ const Slideshow = () => {
               viewBox="0 0 24 24"
               strokeWidth={2}
               stroke="currentColor"
-              className="w-5 h-5"
+              className="w-9 h-9"
             >
               <path
                 strokeLinecap="round"
