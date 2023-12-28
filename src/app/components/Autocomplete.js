@@ -4,15 +4,15 @@ import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-const Autocomplete = () => {
-  const [show, setShow] = useState(false);
+const Autocomplete = ({ showSearch, setShowSearch }) => {
+  // const [show, setShow] = useState(false);
 
   const handleClick = () => {
-    setShow(true);
+    setShowSearch(true);
   };
 
   const closeSearch = () => {
-    setShow(false);
+    setShowSearch(false);
   };
 
   let autoRef = useRef();
@@ -20,7 +20,7 @@ const Autocomplete = () => {
   useEffect(() => {
     let handler = (e) => {
       if (!autoRef.current.contains(e.target)) {
-        setShow(false);
+        setShowSearch(false);
         console.log(autoRef.current);
       }
     };
@@ -34,11 +34,14 @@ const Autocomplete = () => {
 
   return (
     <>
-      <div className="relative w-3/5 hidden  md:flex flex-col" ref={autoRef}>
+    <header className={`absolute z-40 ${showSearch == false ? 'hidden' : 'flex'} h-14 md:h-16 w-full top-0 md:m-0 px-4 md:px-6 py-6 md:py-3  items-center justify-between bg-[#00634b] shadow2`}>
+
+    <div className="w-1/12"></div>
+      <div className="relative w-10/12   flex-col" ref={autoRef}>
         <div
           className={` ${
-            show == false ? "bg-[#f4f4f4]" : "bg-white"
-          } relative flex w-full items-center  rounded-3xl z-30`}
+            showSearch == false ? "bg-[#f4f4f4]" : "bg-white"
+          } relative flex w-full items-center  rounded z-30`}
         >
           <div className="pl-4">
             <svg
@@ -53,60 +56,24 @@ const Autocomplete = () => {
             </svg>
           </div>
           <input
-            className="w-full rounded-3xl bg-transparent text-gray-700 leading-tight focus:outline-none py-3 px-2"
+            className="w-full rounded bg-transparent text-gray-700 leading-tight focus:outline-none py-2 md:py-3 px-2"
             id="search"
             type="text"
             placeholder="Search something"
-            onClick={handleClick}
+            // onClick={handleClick}
           />
-          <button className="absolute flex justify-center items-center top-1.5 right-2 w-[32px] h-[32px] py-1 px-1 bg-[#ffb3c7] hover:opacity-90  rounded-full text-md text-black transition duration-200 ">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={1.5}
-                    stroke="currentColor"
-                    className="w-4 h-4"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
-                    />
-                  </svg>
-                </button>
+          <button className="absolute flex justify-center items-center top-1 md:top-1.5 right-1 md:right-2 w-7 h-7 md:w-[32px] md:h-[32px] py-1 px-1 bg-gray-200 hover:bg-gray-300  rounded-full text-md text-black transition duration-200 " onClick={closeSearch}>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
+</svg>
+
+          </button>
         </div>
-        <div className="absolute top-0 w-full z-40">
-          {/* <div className={` ${
-              show == false ? "hidden" : "flex"
-            } mx-auto w-full justify-center`}>
-            <div
-              className=" w-20 px-2 flex items-center space-x-0.5 text-red-400 cursor-pointer"
-              onClick={closeSearch}
-            >
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={2}
-                  stroke="currentColor"
-                  className="w-4 h-4"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M6 18L18 6M6 6l12 12"
-                  />
-                </svg>
-              </div>
-              <span className="text-sm">close</span>
-            </div>
-          </div> */}
+        {/* <div className="absolute top-0 w-full z-40">
           <div
             className={` ${
-              show == false ? "hidden" : "flex"
-            }  px-0 pb-8  flex-col space-y-4 w-full bg-white rounded-3xl`}
+              showSearch == false ? "hidden" : "flex"
+            }  px-0 pb-0  flex-col space-y-4 w-full bg-pink-200 rounded-3xl`}
           >
             <div className="flex flex-col space-y-0">
               <div className="relative flex w-full items-center  rounded-3xl z-40 py-.5">
@@ -146,104 +113,16 @@ const Autocomplete = () => {
                 </button>
               </div>
               <div className="px-4">
-              <div className="h-px bg-mercury"></div>
+                <div className="h-px bg-mercury"></div>
               </div>
             </div>
-            <div className="flex flex-col px-6 space-y-2">
-              <span className="text-md text-gray-500 font-semibold">
-                News
-              </span>
-              <ul className="w-full flex flex-col space-y-3">
-                <li className="flex justify-between items-center cursor-pointer w-full hover:text-indigo-500 pb-1 border-b">
-                  <span className="text-sm">
-                    25 New Mom Gift Baskets That Are All About Her
-                  </span>
-                  <div>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      className="w-4 h-4"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
-                      />
-                    </svg>
-                  </div>
-                </li>
-                <li className="flex justify-between items-center cursor-pointer w-full hover:text-indigo-500 pb-1 border-b">
-                  <span className="text-sm">
-                    33 Meditation Gifts to Help Find Your Inner Zen Master
-                  </span>
-                  <div>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      className="w-4 h-4"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
-                      />
-                    </svg>
-                  </div>
-                </li>
-                <li className="flex justify-between items-center cursor-pointer w-full hover:text-indigo-500 pb-1 border-b">
-                  <span className="text-sm">
-                    25 New Mom Gift Baskets That Are All About Her
-                  </span>
-                  <div>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      className="w-4 h-4"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
-                      />
-                    </svg>
-                  </div>
-                </li>
-                <li className="flex justify-between items-center cursor-pointer w-full hover:text-indigo-500 pb-1 border-b">
-                  <span className="text-sm">
-                    33 Meditation Gifts to Help Find Your Inner Zen Master
-                  </span>
-                  <div>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      className="w-4 h-4"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
-                      />
-                    </svg>
-                  </div>
-                </li>
-              </ul>
-            </div>
+           
           </div>
-        </div>
+        </div> */}
       </div>
-      {show ? (
+      <div className="w-1/12"></div>
+      </header>
+      {showSearch ? (
         <div className="opacity-50 fixed inset-0 z-30 bg-black"></div>
       ) : (
         <></>

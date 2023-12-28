@@ -3,7 +3,7 @@ import React from 'react'
 const CategoryNav = () => {
   return (
     <>
-      <div className="h-16 bg-[#f3f4f3] shadow">
+      <div className="h-14 bg-[#f3f4f3] shadow">
         <nav className="grid-container relative h-full px-3 lg:px-0 mx-auto w-11/12">
           <button className="absolute left-2 top-4 z-20 flex h-6 w-6 items-center justify-center bg-black/20 hover:bg-black/50 md:-left-2 ">
             <svg
@@ -21,7 +21,7 @@ const CategoryNav = () => {
               ></path>
             </svg>
           </button>
-          <ul className="scrollbar-fix flex h-full w-full flex-row items-center justify-between overflow-y-scroll whitespace-nowrap">
+          <ul className="scrollbar-fix no-scrollbar flex h-full w-full flex-row items-center justify-between overflow-y-scroll whitespace-nowrap">
             <li>
               <a
                 className="cursor-pointer rounded-full border px-4 py-2 text-sm font-bold text-sold-out hover:border-sold-out border-sold-out text-sold-out"

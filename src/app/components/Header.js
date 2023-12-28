@@ -15,11 +15,16 @@ import Logo from "./Logo";
 const Header = () => {
   const totalQTY = useState(12);
   const [show, setShow] = useState(false);
+  const [showSearch, setShowSearch] = useState(false);
   const [openMenu, setOpenMenu] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
   const handleClick = () => {
     setShow(!show);
+  };
+
+  const handleSearch = () => {
+    setShowSearch(!showSearch);
   };
 
   const handleClose = () => {
@@ -56,7 +61,7 @@ const Header = () => {
                 </svg>
               </button>
             </section>
-            <div className="w-5/6 md:w-full2 flex justify-center items-center">
+            <div className="w-5/6 md:hidden flex justify-center items-center">
               <Link href={"/"}>
                 {/* <Image src={logo} alt="" className="w-28 md:w-40" /> */}
                 <Logo />
@@ -70,30 +75,30 @@ const Header = () => {
                   onClick={() => setIsOpen(!isOpen)}
                 >
                   <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-6 h-6 text-white"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
-                />
-              </svg>
-              <div class="absolute top-0  inset-0 object-right-top">
-                <span class="-mr-22 inline-flex items-center rounded-full border border-white bg-primary px-1 py-1 text-[0.6rem] font-semibold leading-none text-white lg:-mt-1 ">
-                {totalQTY}
-                </span>
-              </div>
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-6 h-6 text-white"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+                    />
+                  </svg>
+                  <div class="absolute top-0  inset-0 object-right-top">
+                    <span class="-mr-22 inline-flex items-center rounded-full border border-white bg-primary px-1 py-1 text-[0.6rem] font-semibold leading-none text-white lg:-mt-1 ">
+                      {totalQTY}
+                    </span>
+                  </div>
                 </button>
               </div>
               <div
                 id="search-toggle"
                 className="flex items-center cursor-pointer"
-                onClick={handleClick}
+                onClick={handleSearch}
               >
                 <svg
                   className="fill-current text-white w-6 h-6 font-semibold"
@@ -110,53 +115,34 @@ const Header = () => {
           </div>
         </div>
 
-        {/* <div className="w-3/5 hidden  md:flex items-center bg-[#ebebeb] rounded-lg">
-        <div className="pl-2">
-          <svg
-            className="fill-current text-gray-500 w-4 h-4"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-          >
-            <path
-              className="heroicon-ui"
-              d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"
-            />
-          </svg>
-        </div>
-        <input
-          className="w-full rounded-2xl bg-[#ebebeb] text-gray-700 leading-tight focus:outline-none py-2 px-2"
-          id="search"
-          type="text"
-          placeholder="Search something"
-        />
-      </div> */}
-
-        <Autocomplete />
+        <div className="w-3/5 hidden md:flex justify-center items-center">
+              <Link href={"/"}>
+                {/* <Image src={logo} alt="" className="w-28 md:w-40" /> */}
+                <Logo />
+              </Link>
+            </div>
 
         <div className="w-1/5 hidden md:flex justify-end">
           <div className="flex space-x-3 items-center">
-          <div
-                id="search-toggle"
-                className="flex items-center cursor-pointer"
-                onClick={handleClick}
-              >
-                <svg
-                  className="fill-current text-white w-6 h-6 font-semibold"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    className="heroicon-ui"
-                    d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"
-                  />
-                </svg>
-              </div>
-            <UserMenu />
-           
-            <button
-              className="relative w-9"
-              onClick={() => setIsOpen(!isOpen)}
+            <div
+              id="search-toggle"
+              className="flex items-center cursor-pointer"
+              onClick={handleSearch}
             >
+              <svg
+                className="fill-current text-white w-6 h-6 font-semibold"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  className="heroicon-ui"
+                  d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"
+                />
+              </svg>
+            </div>
+            <UserMenu />
+
+            <button className="relative w-9" onClick={() => setIsOpen(!isOpen)}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -178,7 +164,7 @@ const Header = () => {
 
               <div class="absolute top-0  inset-0 object-right-top">
                 <span class="-mr-22 inline-flex items-center rounded-full border border-white bg-primary px-1 py-1 text-[0.6rem] font-semibold leading-none text-white lg:-mt-1 ">
-                {totalQTY}
+                  {totalQTY}
                 </span>
               </div>
             </button>
@@ -210,6 +196,7 @@ const Header = () => {
         <></>
       )}
 
+      <Autocomplete showSearch={showSearch} setShowSearch={setShowSearch} />
       <MiniCart
         isOpen={isOpen}
         handleClose={handleClose}

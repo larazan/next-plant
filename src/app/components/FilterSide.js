@@ -24,9 +24,9 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M6 18L18 6M6 6l12 12"
               ></path>
             </svg>
@@ -48,9 +48,9 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M9 5l7 7-7 7"
               ></path>
             </svg>
@@ -107,7 +107,7 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
             viewBox="0 0 100 1"
             preserveAspectRatio="none"
           >
-            <path d="M0,0 100,0" stroke="#707070" stroke-width="1"></path>
+            <path d="M0,0 100,0" stroke="#707070" strokeWidth="1"></path>
           </svg>
           <button
             className="mb-3 flex w-full items-center justify-between"
@@ -126,9 +126,9 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M9 5l7 7-7 7"
               ></path>
             </svg>
@@ -209,7 +209,7 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
             viewBox="0 0 100 1"
             preserveAspectRatio="none"
           >
-            <path d="M0,0 100,0" stroke="#707070" stroke-width="1"></path>
+            <path d="M0,0 100,0" stroke="#707070" strokeWidth="1"></path>
           </svg>
           <button
             className="mb-3 flex w-full items-center justify-between"
@@ -227,9 +227,9 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M9 5l7 7-7 7"
               ></path>
             </svg>
@@ -240,7 +240,7 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
             viewBox="0 0 100 1"
             preserveAspectRatio="none"
           >
-            <path d="M0,0 100,0" stroke="#707070" stroke-width="1"></path>
+            <path d="M0,0 100,0" stroke="#707070" strokeWidth="1"></path>
           </svg>
           <button
             className="mb-3 flex w-full items-center justify-between"
@@ -258,9 +258,9 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M9 5l7 7-7 7"
               ></path>
             </svg>
@@ -271,7 +271,7 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
             viewBox="0 0 100 1"
             preserveAspectRatio="none"
           >
-            <path d="M0,0 100,0" stroke="#707070" stroke-width="1"></path>
+            <path d="M0,0 100,0" stroke="#707070" strokeWidth="1"></path>
           </svg>
           <button
             className="mb-3 flex w-full items-center justify-between"
@@ -289,9 +289,9 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M9 5l7 7-7 7"
               ></path>
             </svg>
@@ -302,7 +302,7 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
             viewBox="0 0 100 1"
             preserveAspectRatio="none"
           >
-            <path d="M0,0 100,0" stroke="#707070" stroke-width="1"></path>
+            <path d="M0,0 100,0" stroke="#707070" strokeWidth="1"></path>
           </svg>
           <button
             className="mb-3 flex w-full items-center justify-between"
@@ -320,9 +320,9 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M9 5l7 7-7 7"
               ></path>
             </svg>
@@ -333,7 +333,7 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
             viewBox="0 0 100 1"
             preserveAspectRatio="none"
           >
-            <path d="M0,0 100,0" stroke="#707070" stroke-width="1"></path>
+            <path d="M0,0 100,0" stroke="#707070" strokeWidth="1"></path>
           </svg>
           <button
             className="mb-3 flex w-full items-center justify-between"
@@ -351,9 +351,9 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M9 5l7 7-7 7"
               ></path>
             </svg>
@@ -364,7 +364,7 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
             viewBox="0 0 100 1"
             preserveAspectRatio="none"
           >
-            <path d="M0,0 100,0" stroke="#707070" stroke-width="1"></path>
+            <path d="M0,0 100,0" stroke="#707070" strokeWidth="1"></path>
           </svg>
           <button
             className="mb-3 flex w-full items-center justify-between"
@@ -382,9 +382,9 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M9 5l7 7-7 7"
               ></path>
             </svg>
@@ -395,7 +395,7 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
             viewBox="0 0 100 1"
             preserveAspectRatio="none"
           >
-            <path d="M0,0 100,0" stroke="#707070" stroke-width="1"></path>
+            <path d="M0,0 100,0" stroke="#707070" strokeWidth="1"></path>
           </svg>
           <button
             className="mb-3 flex w-full items-center justify-between"
@@ -413,9 +413,9 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M9 5l7 7-7 7"
               ></path>
             </svg>
@@ -426,7 +426,7 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
             viewBox="0 0 100 1"
             preserveAspectRatio="none"
           >
-            <path d="M0,0 100,0" stroke="#707070" stroke-width="1"></path>
+            <path d="M0,0 100,0" stroke="#707070" strokeWidth="1"></path>
           </svg>
           <button
             className="mb-3 flex w-full items-center justify-between"
@@ -444,9 +444,9 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M9 5l7 7-7 7"
               ></path>
             </svg>
@@ -457,7 +457,7 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
             viewBox="0 0 100 1"
             preserveAspectRatio="none"
           >
-            <path d="M0,0 100,0" stroke="#707070" stroke-width="1"></path>
+            <path d="M0,0 100,0" stroke="#707070" strokeWidth="1"></path>
           </svg>
           <button
             className="mb-3 flex w-full items-center justify-between"
@@ -475,9 +475,9 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M9 5l7 7-7 7"
               ></path>
             </svg>
@@ -488,7 +488,7 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
             viewBox="0 0 100 1"
             preserveAspectRatio="none"
           >
-            <path d="M0,0 100,0" stroke="#707070" stroke-width="1"></path>
+            <path d="M0,0 100,0" stroke="#707070" strokeWidth="1"></path>
           </svg>
           <button
             className="mb-3 flex w-full items-center justify-between"
@@ -507,9 +507,9 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M9 5l7 7-7 7"
               ></path>
             </svg>
@@ -590,7 +590,7 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
             viewBox="0 0 100 1"
             preserveAspectRatio="none"
           >
-            <path d="M0,0 100,0" stroke="#707070" stroke-width="1"></path>
+            <path d="M0,0 100,0" stroke="#707070" strokeWidth="1"></path>
           </svg>
           <button
             className="mb-3 flex w-full items-center justify-between"
@@ -609,9 +609,9 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M9 5l7 7-7 7"
               ></path>
             </svg>
@@ -692,7 +692,7 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
             viewBox="0 0 100 1"
             preserveAspectRatio="none"
           >
-            <path d="M0,0 100,0" stroke="#707070" stroke-width="1"></path>
+            <path d="M0,0 100,0" stroke="#707070" strokeWidth="1"></path>
           </svg>
           <button
             className="mb-3 flex w-full items-center justify-between"
@@ -710,9 +710,9 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M9 5l7 7-7 7"
               ></path>
             </svg>
@@ -723,10 +723,10 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
             viewBox="0 0 100 1"
             preserveAspectRatio="none"
           >
-            <path d="M0,0 100,0" stroke="#707070" stroke-width="1"></path>
+            <path d="M0,0 100,0" stroke="#707070" strokeWidth="1"></path>
           </svg>
         </div>
-        <div className="mt-16 hidden justify-between md:flex col-span-full md:flex-col">
+        {/* <div className="mt-16 hidden justify-between md:flex col-span-full md:flex-col">
           <div className="flex flex-1 flex-col justify-start">
             <svg
               className="h-18 flex-none xl:h-auto"
@@ -734,7 +734,7 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
               width="91"
               height="76.535"
             >
-              <g stroke="#141215" stroke-miterlimit="10" stroke-width="2">
+              <g stroke="#141215" stroke-miterlimit="10" strokeWidth="2">
                 <g fill="none">
                   <g transform="translate(23.249 63.453)">
                     <circle cx="6.041" cy="6.041" r="6.041"></circle>
@@ -777,7 +777,7 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
             viewBox="0 0 100 1"
             preserveAspectRatio="none"
           >
-            <path d="M0,0 100,0" stroke="#707070" stroke-width="1"></path>
+            <path d="M0,0 100,0" stroke="#707070" strokeWidth="1"></path>
           </svg>
           <div className="flex flex-1 flex-col justify-start">
             <svg
@@ -791,7 +791,7 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
                 fill="none"
                 stroke="#141215"
                 stroke-miterlimit="10"
-                stroke-width="2"
+                strokeWidth="2"
               ></path>
               <g fill="#141215" stroke="#000">
                 <path d="M15.08 53.028l1.14-.941a7.592 7.592 0 006.213 3.193c2.679 0 4.931-1.8 4.931-4.418v-.057c0-2.793-2.623-4.332-6.213-4.332h-1.083l-.37-.826 6.868-7.923H16.107v-1.4h12.482v1.055l-6.753 7.723c3.791.229 7.068 2 7.068 5.643v.056c0 3.478-3.049 5.814-6.5 5.814a8.971 8.971 0 01-7.324-3.587zM32.773 46.359v-.053c0-5.5 3.221-10.316 8.292-10.316s8.237 4.759 8.237 10.259v.057c0 5.5-3.22 10.316-8.294 10.316s-8.235-4.763-8.235-10.263zm14.99 0v-.053c0-4.646-2.621-8.978-6.755-8.978s-6.7 4.275-6.7 8.92v.058c0 4.617 2.622 8.978 6.753 8.978s6.702-4.308 6.702-8.925z"></path>
@@ -831,7 +831,7 @@ const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </>
   );

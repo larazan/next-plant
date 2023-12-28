@@ -18,7 +18,7 @@ const ProductItem = () => {
   return (
     <>
       <div className="flex gap-x-4 py-2 lg:px-6 border-b border-gray-200 w-full font-light text-gray-500">
-        <div className="w-full min-h-[110px] flex items-center gap-x-4">
+        <div className="w-full min-h-[110px] flex items-center gap-x-2">
           <Link
             href={"/shop/product-4"}
             className="border rounded-sm bg-gray-100 p-1"
@@ -28,14 +28,14 @@ const ProductItem = () => {
           <div className="w-full flex flex-col">
             <div className="flex justify-between mb-2">
               <div className="flex flex-col max-w-[240px]">
-                <span className="text-xs font-semibold uppercase">
-                  Savory Chews
-                </span>
+                {/* <span className="text-xs font-semibold uppercase">
+                
+                </span> */}
                 <Link
                   href={"/shop/product-4"}
-                  className="text-xs font-medium  hover:underline"
+                  className="text-sm font-medium leading-tight hover:underline"
                 >
-                  Salmon Savory Chews
+                  Anthurium king of spades x papillilaminum
                 </Link>
               </div>
 

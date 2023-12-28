@@ -13,6 +13,7 @@ import Pagination from "../components/Pagination";
 import FilterSide from "../components/FilterSide";
 import SortOpt from "../components/SortOpt";
 import CategoryNav from "../components/CategoryNav";
+import Guarantee from "../components/Guarantee";
 
 export default function Collection() {
   const [isOpen, setIsOpen] = useState(false);
@@ -46,7 +47,7 @@ export default function Collection() {
           </div>
         </main>
       </div>
-
+      <Guarantee />
       <Footer />
     </>
   );
