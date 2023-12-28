@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import Accordion from "./Accordion";
 
-import logo from "@/assets/img/new-logo.png";
+import logo from "@/assets/img/logo.png";
 
 const Menu = ({ 
   openMenu,
@@ -38,7 +38,7 @@ const Menu = ({
         <div className="flex w-full items-center justify-between py-4 border-b border-[#257a65]">
           <div className="w-1/2">
             <Link href={"/"}>
-              <Image src={logo} alt="" className="w-28 md:w-32" />
+              <Image src={logo} alt="" className="w-28 md:w-24" />
             </Link>
           </div>
 
