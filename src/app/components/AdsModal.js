@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
-import promo from "@/assets/promo2.png"
+import promo from "@/assets/slides/slide3.png";
 
 const AdsModal = () => {
     const [isShow, setIsShow] = useState(true);

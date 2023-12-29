@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -5,7 +7,7 @@ import Image from "next/image";
 import blog1 from "@/assets/blogs/blog1.png";
 import blog2 from "@/assets/blogs/blog2.png";
 import blog3 from "@/assets/blogs/blog3.png";
-import blog4 from "@/assets/blogs/blog4.jpg";
+import blog4 from "@/assets/blogs/blog4.png";
 import blog5 from "@/assets/blogs/blog5.png";
 import blog6 from "@/assets/blogs/blog6.png";
 import blog7 from "@/assets/blogs/blog7.png";
@@ -68,7 +70,7 @@ const RelatedArticle = () => {
 
   return (
     <>
-      <div className="flex w-full py-6 px-5 bg-[#f8f3e7]">
+      <div className="flex w-full py-6 px-5 bg-white">
         <div className="flex flex-col space-y-3 w-full">
           <div className="flex flex-row justify-between  items-center">
             <p className=" text-lg font-bold md:text-xl lg:text-2xl text-black">

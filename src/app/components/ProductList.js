@@ -31,65 +31,74 @@ const ProductList = () => {
   const productData = [
     {
       id: 1,
-      title: "Frieskies Seafood Sensations Dry Cat Food",
+      title: "Thai Constellation",
       slug: "product-1",
-      price: "8.00",
+      price: "37.95",
+      category: "Anthurium",
       img: product1,
     },
     {
       id: 2,
-      title: "Frieskies Seafood Sensations Dry Cat Food",
+      title: "Florida Ghost",
       slug: "product-1",
       price: "8.00",
+      category: "Monstera",
       img: product2,
     },
     {
       id: 3,
-      title: "Frieskies Seafood Sensations Dry Cat Food",
+      title: "Warocqueanum",
       slug: "product-1",
-      price: "8.00",
+      price: "21.00",
+      category: "Anthurium",
       img: product3,
     },
     {
       id: 4,
-      title: "Frieskies Seafood Sensations Dry Cat Food",
+      title: "Frydek Variegata",
       slug: "product-1",
-      price: "8.00",
+      price: "28.00",
+      category: "Alocasia",
       img: product4,
     },
     {
       id: 5,
-      title: "Frieskies Seafood Sensations Dry Cat Food",
+      title: "Frozen Freckles",
       slug: "product-1",
-      price: "8.00",
+      price: "35.00",
+      category: "Anthurium",
       img: product5,
     },
     {
       id: 6,
-      title: "Frieskies Seafood Sensations Dry Cat Food",
+      title: "Kentia Palm",
       slug: "product-1",
-      price: "8.00",
+      price: "16.00",
+      category: "Monstera",
       img: product6,
     },
     {
       id: 7,
-      title: "Frieskies Seafood Sensations Dry Cat Food",
+      title: "Obliqua",
       slug: "product-1",
-      price: "8.00",
+      price: "48.00",
+      category: "Anthurium",
       img: product7,
     },
     {
       id: 8,
-      title: "Frieskies Seafood Sensations Dry Cat Food",
+      title: "Esqueleto",
       slug: "product-1",
-      price: "8.00",
+      price: "85.00",
+      category: "Monstera",
       img: product8,
     },
     {
       id: 9,
-      title: "Frieskies Seafood Sensations Dry Cat Food",
+      title: "Heterophylla",
       slug: "product-1",
       price: "8.00",
+      category: "Anthurium",
       img: product9,
     },
   ];
@@ -110,13 +119,15 @@ const ProductList = () => {
                 >
                   <div className="aspect-h-305 aspect-w-246 bg-grayish transform transition-transform  md:motion-safe:group-hover:scale-110">
                     <Image src={data.img} alt="" />
+                    <div>
+                      <span className="w-auto px-2 py-1.5 text-sm font-bold leading-none text-white 3xl:px-3 3xl:py-1.7 3xl:text-base bg-sale/80 absolute bottom-2 left-0 3xl:bottom-3">sale -15%</span></div>
                   </div>
                   <button
-                    class="max-h-8 max-w-8 overflow-hidden rounded-full lg:max-h-10 lg:max-w-10 absolute right-2 top-2 z-10"
+                    className="max-h-8 max-w-8 overflow-hidden rounded-full lg:max-h-10 lg:max-w-10 absolute right-2 top-2 z-10"
                     aria-label="product is not on your wishlist"
                   >
                     <svg
-                      class="h-8 w-8 transform transition-all md:hover:scale-110 lg:h-10 lg:w-10"
+                      className="h-8 w-8 transform transition-all md:hover:scale-110 lg:h-10 lg:w-10"
                       viewBox="0 0 50 50"
                       xmlns="http://www.w3.org/2000/svg"
                       fill-rule="evenodd"
@@ -124,7 +135,7 @@ const ProductList = () => {
                     >
                       <circle cx="25" cy="25" r="25" fill="#fff"></circle>
                       <path
-                        class="transition-opacity opacity-0"
+                        className="transition-opacity opacity-0"
                         d="M16.96 13.795c-3.86 0-6.77 3.2-6.77 7.447 0 .261.02.522.05.782.77 7.94 12.78 16.4 14.68 17.689 1.9-1.292 13.92-9.749 14.69-17.687.03-.266.04-.529.04-.784a7.782 7.782 0 00-2.33-5.513 6.622 6.622 0 00-4.8-1.983c-2.46.046-3.8.419-7.27 3.971l-.33.338-.33-.338c-3.48-3.568-4.93-3.922-7.63-3.922z"
                         fill="#debe48"
                         fill-rule="nonzero"
@@ -139,15 +150,16 @@ const ProductList = () => {
                     </svg>
                   </button>
 
-                  <section class="flex grow flex-col justify-start lg:mt-2 lg:justify-between">
-                    <span class="truncate m-0 font-sans text-sm font-bold leading-tight 3xl:text-base">
-                      Silver Blush
+                  <section className="flex grow flex-col justify-start lg:mt-2 lg:justify-between">
+                    <span className="truncate m-0 font-sans text-sm font-bold leading-tight 3xl:text-base">
+                      {data.title}
                     </span>
-                    <span class="text-sm italic leading-none lg:text-base 3xl:text-base">
-                      Anthurium
+                    <span className="text-sm italic leading-none lg:text-base 3xl:text-base">
+                      {data.category}
                     </span>
-                    <span class="flex flex-row items-center gap-2 text-sm leading-tight 3xl:text-base">
-                      <span class="font-bold">€32.95</span>
+                    <span className="flex flex-row items-center gap-2 text-sm leading-tight 3xl:text-base">
+                      <span className="font-normal line-through decoration-sale">€29.95</span>
+                      <span className="font-bold text-sale">€32.95</span>
                     </span>
                   </section>
                 </a>

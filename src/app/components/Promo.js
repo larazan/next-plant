@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
-import promo from "@/assets/promo3.jpeg";
+import promo from "@/assets/slides/slide3.png";
 
 const Promo = () => {
   const [isShow, setIsShow] = useState(false);
