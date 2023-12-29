@@ -66,38 +66,110 @@ const Menu = ({
         </div>
 
         <div className="h-4/6 divide-y divide-[#257a65]">
-          <Accordion title="Supplements" bg="00644b">
+        <Accordion title="Plants" bg="00644b">
             <div className="overflow-hidden pb-2">
               <div className="duration-300 px-4">
+              <Link
+                  className="flex items-center h-8 text-base font-semibold text-white "
+                  href={"/plants"}
+                >
+                  Plant Encyclopedia
+                </Link>
                 <a
                   className="flex items-center h-8 text-base font-semibold text-white "
                   href="#"
                 >
-                  Natural Food
+                  Flowers
                 </a>
                 <a
                   className="flex items-center h-8 text-base font-semibold text-white "
                   href="#"
                 >
-                  Treats
+                  Berries and Vine Fruits
                 </a>
                 <a
                   className="flex items-center h-8 text-base font-semibold text-white "
                   href="#"
                 >
-                  Toys
+                  Cacti and Succulents
                 </a>
                 <a
                   className="flex items-center h-8 text-base font-semibold text-white "
                   href="#"
                 >
-                  Accessories
+                  Herbs
                 </a>
                 <a
                   className="flex items-center h-8 text-base font-semibold text-white "
                   href="#"
                 >
-                  Apparel
+                  Houseplants
+                </a>
+                <a
+                  className="flex items-center h-8 text-base font-semibold text-white "
+                  href="#"
+                >
+                  Follage Plants
+                </a>
+                <a
+                  className="flex items-center h-8 text-base font-semibold text-white "
+                  href="#"
+                >
+                  Fruits Trees
+                </a>
+                <a
+                  className="flex items-center h-8 text-base font-semibold text-white "
+                  href="#"
+                >
+                  Grasses, Rushes, and Sedges
+                </a>
+                <a
+                  className="flex items-center h-8 text-base font-semibold text-white "
+                  href="#"
+                >
+                  Landscape Trees
+                </a>
+                <a
+                  className="flex items-center h-8 text-base font-semibold text-white "
+                  href="#"
+                >
+                  Nut Trees
+                </a>
+                <a
+                  className="flex items-center h-8 text-base font-semibold text-white "
+                  href="#"
+                >
+                  Woody Shrubs
+                </a>
+                <a
+                  className="flex items-center h-8 text-base font-semibold text-white "
+                  href="#"
+                >
+                  Vegetables
+                </a>
+                <a
+                  className="flex items-center h-8 text-base font-semibold text-white "
+                  href="#"
+                >
+                  Vines and Climbers
+                </a>
+              </div>
+            </div>
+          </Accordion>
+          <Accordion title="Houseplants" bg="00644b">
+            <div className="overflow-hidden pb-2">
+              <div className="duration-300 px-4">
+              <Link
+                  className="flex items-center h-8 text-base font-semibold text-white "
+                  href={"/plants"}
+                >
+                  Plant Encyclopedia
+                </Link>
+                <a
+                  className="flex items-center h-8 text-base font-semibold text-white "
+                  href="#"
+                >
+                  Houseplants Article
                 </a>
                 <a
                   className="flex items-center h-8 text-base font-semibold text-white "
@@ -108,45 +180,21 @@ const Menu = ({
               </div>
             </div>
           </Accordion>
-          <Accordion title="Dog" bg="00644b">
+          <Accordion title="Garden Plants" bg="00644b">
             <div className="overflow-hidden pb-2">
               <div className="duration-300 px-4">
                 <Link
                   className="flex items-center h-8 text-base font-semibold text-white "
-                  href={"/breeds"}
+                  href={"/plants"}
                 >
-                  Dog Breeds
+                  Plant Encyclopedia
                 </Link>
                 <Link
                   className="flex items-center h-8 text-base font-semibold text-white "
                   href={"/category"}
                 >
-                  Dog Articles
+                  Garden Plants Articles
                 </Link>
-                <Link
-                  className="flex items-center h-8 text-base font-semibold text-white "
-                  href={"/collection"}
-                >
-                  Food
-                </Link>
-                <a
-                  className="flex items-center h-8 text-base font-semibold text-white "
-                  href="#"
-                >
-                  Treats
-                </a>
-                <a
-                  className="flex items-center h-8 text-base font-semibold text-white "
-                  href="#"
-                >
-                  Health & Wellness
-                </a>
-                <a
-                  className="flex items-center h-8 text-base font-semibold text-white "
-                  href="#"
-                >
-                  Accessories
-                </a>
                 <Link
                   className="flex items-center h-8 text-base font-semibold text-white "
                   href="shop"
@@ -156,207 +204,135 @@ const Menu = ({
               </div>
             </div>
           </Accordion>
-          <Accordion title="Cat" bg="00644b">
+          <Accordion title="Shops" bg="00644b">
             <div className="overflow-hidden pb-2">
               <div className="duration-300 px-4">
                 <Link
                   className="flex items-center h-8 text-base font-semibold text-white "
                   href={"/breeds"}
                 >
-                  Cat Breeds
+                  Pots
                 </Link>
                 <Link
                   className="flex items-center h-8 text-base font-semibold text-white "
                   href={"/category"}
                 >
-                  Cat Articles
+                  Soils
                 </Link>
                 <Link
                   className="flex items-center h-8 text-base font-semibold text-white "
                   href={"/collection"}
                 >
-                  Food
+                  Care
                 </Link>
                 <a
                   className="flex items-center h-8 text-base font-semibold text-white "
                   href="#"
                 >
-                  Treats
-                </a>
-                <a
-                  className="flex items-center h-8 text-base font-semibold text-white "
-                  href="#"
-                >
-                  Health & Wellness
-                </a>
-                <a
-                  className="flex items-center h-8 text-base font-semibold text-white "
-                  href="#"
-                >
                   Accessories
                 </a>
-                <Link
+                <a
                   className="flex items-center h-8 text-base font-semibold text-white "
-                  href={"/shop"}
+                  href="#"
                 >
-                  Shop All
-                </Link>
+                  Gifts
+                </a>
+                
               </div>
             </div>
           </Accordion>
-          <Accordion title="Fish" bg="00644b">
+          <Accordion title="How To" bg="00644b">
             <div className="overflow-hidden pb-2">
               <div className="duration-300 px-4">
                 <a
                   className="flex items-center h-8 text-base font-semibold text-white "
                   href="#"
                 >
-                  Food
+                  Wildlife and Gardens
                 </a>
                 <a
                   className="flex items-center h-8 text-base font-semibold text-white "
                   href="#"
                 >
-                  Treats
+                  Beginner Gardening
                 </a>
                 <a
                   className="flex items-center h-8 text-base font-semibold text-white "
                   href="#"
                 >
-                  Health & Wellness
+                  Build your Soil
                 </a>
                 <a
                   className="flex items-center h-8 text-base font-semibold text-white "
                   href="#"
                 >
-                  Equipment
+                  Container Gardening
                 </a>
                 <a
                   className="flex items-center h-8 text-base font-semibold text-white "
                   href="#"
                 >
-                  Accessories
+                  Garden Design
                 </a>
                 <a
                   className="flex items-center h-8 text-base font-semibold text-white "
                   href="#"
                 >
-                  Shop All
-                </a>
-              </div>
-            </div>
-          </Accordion>
-          <Accordion title="Small Pet" bg="00644b">
-            <div className="overflow-hidden pb-2">
-              <div className="duration-300 px-4">
-                <a
-                  className="flex items-center h-8 text-base font-semibold text-white "
-                  href="#"
-                >
-                  Food
+                 Diseases and pets
                 </a>
                 <a
                   className="flex items-center h-8 text-base font-semibold text-white "
                   href="#"
                 >
-                  Treats
+                  Greenhouses and cold frames
                 </a>
                 <a
                   className="flex items-center h-8 text-base font-semibold text-white "
                   href="#"
                 >
-                  Health & Wellness
+                  Indoor Gardening
                 </a>
                 <a
                   className="flex items-center h-8 text-base font-semibold text-white "
                   href="#"
                 >
-                  Accessories
+                  Lawns and Turf Grass
                 </a>
                 <a
                   className="flex items-center h-8 text-base font-semibold text-white "
                   href="#"
                 >
-                  Shop All
-                </a>
-              </div>
-            </div>
-          </Accordion>
-          <Accordion title="Reptile" bg="00644b">
-            <div className="overflow-hidden pb-2">
-              <div className="duration-300 px-4">
-                <a
-                  className="flex items-center h-8 text-base font-semibold text-white "
-                  href="#"
-                >
-                  Food
+                  Organic Gardening
                 </a>
                 <a
                   className="flex items-center h-8 text-base font-semibold text-white "
                   href="#"
                 >
-                  Treats
+                  Propagation
+                </a>
+                <a
+                  className="flex items-center h-8 text-base font-semibold text-white leading-tight"
+                  href="#"
+                >
+                  Pruning and Weeding
                 </a>
                 <a
                   className="flex items-center h-8 text-base font-semibold text-white "
                   href="#"
                 >
-                  Health & Wellness
-                </a>
-                <a
-                  className="flex items-center h-8 text-base font-semibold text-white "
-                  href="#"
-                >
-                  Accessories
-                </a>
-                <a
-                  className="flex items-center h-8 text-base font-semibold text-white "
-                  href="#"
-                >
-                  Shop All
-                </a>
-              </div>
-            </div>
-          </Accordion>
-          <Accordion title="Bird" bg="00644b">
-            <div className="overflow-hidden pb-2">
-              <div className="duration-300 px-4">
-                <a
-                  className="flex items-center h-8 text-base font-semibold text-white "
-                  href="#"
-                >
-                  Food
-                </a>
-                <a
-                  className="flex items-center h-8 text-base font-semibold text-white "
-                  href="#"
-                >
-                  Treats
-                </a>
-                <a
-                  className="flex items-center h-8 text-base font-semibold text-white "
-                  href="#"
-                >
-                  Health & Wellness
-                </a>
-                <a
-                  className="flex items-center h-8 text-base font-semibold text-white "
-                  href="#"
-                >
-                  Accessories
-                </a>
-                <a
-                  className="flex items-center h-8 text-base font-semibold text-white "
-                  href="#"
-                >
-                  Shop All
+                  Shade Gardens
                 </a>
               </div>
             </div>
           </Accordion>
           <div className={` py-0 flex flex-col w-full `}>
             <Link href={"/blogs"} className="flex items-center justify-between h-12 px-3 text-white text-base md:text-[18px] font-semibold md:font-bold">
-              <span>Blogs</span>
+              <span>Reviews</span>
+            </Link>
+          </div>
+          <div className={` py-0 flex flex-col w-full `}>
+            <Link href={"/blogs"} className="flex items-center justify-between h-12 px-3 text-white text-base md:text-[18px] font-semibold md:font-bold">
+              <span>News</span>
             </Link>
           </div>
         </div>
