@@ -79,7 +79,7 @@ const RelatedArticle = () => {
             <div className="flex space-x-1">
               <div
                 onClick={() => slide(-shiftN)}
-                className={`p-1 rounded-full  shadow-md text-black  ${
+                className={`p-1 rounded  shadow-md text-black  ${
                   scrollX !== 0
                     ? "bg-[#fd9c0c] cursor-pointer"
                     : "bg-orange-300 opacity-50 cursor-default"
@@ -104,7 +104,7 @@ const RelatedArticle = () => {
               </div>
               <div
                 onClick={() => slide(+shiftN)}
-                className={`p-1 rounded-full  shadow-md text-black  ${
+                className={`p-1 rounded  shadow-md text-black  ${
                   !scrolEnd
                     ? "bg-[#fd9c0c] cursor-pointer"
                     : "bg-orange-300 opacity-50 cursor-default"

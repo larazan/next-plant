@@ -27,7 +27,7 @@ const CategoryNav = () => {
                 className="cursor-pointer rounded-full border px-4 py-2 text-sm font-bold text-sold-out hover:border-sold-out border-sold-out text-sold-out"
                 href="/en/shop/all-plnts"
               >
-                <span>all PLNTS</span>
+                <span>all plants</span>
               </a>
             </li>
             <li>
@@ -35,7 +35,7 @@ const CategoryNav = () => {
                 className="cursor-pointer rounded-full border px-4 py-2 text-sm border-grayish text-babyplnts hover:border-babyplnts"
                 href="/en/shop/babyplnts-home"
               >
-                <span>BabyPLNTS</span>
+                <span>baby</span>
               </a>
             </li>
             <li>
@@ -51,7 +51,7 @@ const CategoryNav = () => {
                 className="cursor-pointer rounded-full border px-4 py-2 text-sm border-grayish text-exclusive-edition hover:border-exclusive-edition"
                 href="/en/shop/rare-plnts"
               >
-                <span>RarePLNTS</span>
+                <span>rare</span>
               </a>
             </li>
             <li>

@@ -28,11 +28,11 @@ import React, { useEffect, useState } from "react";
 
   return (
     <>
-      <div className="fixed bg-pink bottom-3 right-3  cursor-pointer z-20">
+      <div className="fixed  bottom-3 right-3  cursor-pointer z-20">
         {isVisible && (
           <div
             onClick={scrollToTop}
-            className="fixed p-3 opacity-95 rounded-full bg-[#fbd718] bottom-5 right-3 text-gray-900 hover:scale-105 lg:bottom-5 lg:right-5 cursor-pointer shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg"
+            className="fixed p-3 opacity-95 rounded-full bg-[#fbd718] bottom-5 right-3 text-gray-900 hover:scale-105 lg:bottom-5 lg:right-5 cursor-pointer shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange-400 active:shadow-lg"
           >
             <svg
               aria-hidden="true"

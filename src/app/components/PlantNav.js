@@ -5,9 +5,9 @@ import Image from 'next/image';
 const PlantNav = () => {
   return (
     <>
-        <div className="shadow-lg bg-[#FFE5DD] mb-5 sticky top-0 z-20">
-          <div className='inline-flex flex-nowrap mx-auto w-full md:w-10/12'>
-          <ul className="flex overflow-x-auto w-full items-center md:justify-center2 md:space-x-3  tracking-tight font-semibold text-sm text-[#b6cce2] shadow2">
+        <div className="shadow-lg bg-[#f8f3e7] mb-5 sticky top-0 z-20">
+          <div className='inline-flex2 flex-nowrap mx-auto w-full md:w-10/12 '>
+          <ul className="flex overflow-x-auto no-scrollbar w-full items-center md:justify-center2 md:space-x-3  tracking-tight font-semibold text-sm text-[#b6cce2] shadow2">
             <li className="flex min-w-max nav-item md:-mt-px">
               <Link  className="flex items-center md:space-x-2 p-3 cursor-pointer" activeClass="active" to="where" spy={true} smooth={true} offset={-80} duration={500} >
                 <span className="text-xs md:text-base md:inline text-gray-800 font-semibold">

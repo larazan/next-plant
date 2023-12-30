@@ -84,7 +84,7 @@ const PopularPlant = () => {
 
   return (
     <>
-      <div className="flex w-full py-6 px-5 bg-[#f8f3e7]">
+      <div className="flex w-full py-6 px-5 bg-white">
         <div className="flex flex-col space-y-3 w-full">
           <div className="flex flex-row justify-between  items-center">
             <p className=" text-lg font-bold md:text-xl lg:text-2xl text-black">
@@ -93,7 +93,7 @@ const PopularPlant = () => {
             <div className="flex space-x-1">
               <div
                 onClick={() => slide(-shiftN)}
-                className={`p-1 rounded-full  shadow-md text-black  ${
+                className={`p-1 rounded  shadow-md text-black  ${
                   scrollX !== 0
                     ? "bg-[#fd9c0c] cursor-pointer"
                     : "bg-orange-300 opacity-50 cursor-default"
@@ -104,7 +104,7 @@ const PopularPlant = () => {
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
-                    strokeWidth={1.5}
+                    strokeWidth={2}
                     stroke="currentColor"
                     className="w-5 h-5"
                   >
@@ -118,7 +118,7 @@ const PopularPlant = () => {
               </div>
               <div
                 onClick={() => slide(+shiftN)}
-                className={`p-1 rounded-full  shadow-md text-black  ${
+                className={`p-1 rounded shadow-md text-black  ${
                   !scrolEnd
                     ? "bg-[#fd9c0c] cursor-pointer"
                     : "bg-orange-300 opacity-50 cursor-default"
@@ -129,7 +129,7 @@ const PopularPlant = () => {
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
-                    strokeWidth={1.5}
+                    strokeWidth={2}
                     stroke="currentColor"
                     className="w-5 h-5"
                   >
