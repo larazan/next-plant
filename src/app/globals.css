@@ -172,3 +172,7 @@ input[type='number']::-webkit-outer-spin-button {
 .h-px {
   height: 1px!important;
 }
+
+.bg-sale\/80 {
+  background-color: rgba(198,30,25,.8);
+}

@@ -92,7 +92,7 @@ const Guarantee = () => {
             </div>
           </div>
           <div className="md:hidden [&amp;_ul_li+li]:mt-5 [&amp;_ul_li]:before:mr-4 [&amp;_ul_li]:before:content-['\2713']">
-            <ul>
+            <ul className='text-gray-900'>
               <li>
                 Delivery <span className="font-bold">throughout Europe</span>
               </li>
