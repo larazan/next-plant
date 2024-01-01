@@ -10,7 +10,7 @@ const SubscribeForm = () => {
         <div className="flex justify-center items-center mx-auto w-11/12 md:w-10/12  ">
           <div className="flex w-full flex-col md:flex-row md:py-8 ">
             <div className="w-full ">
-              <div className="w-full px-4 py-6 md:p-8 bg-white">
+              <div className="w-full px-4 py-6 md:p-8 bg-white border-t-2 ">
                 <div className="flex flex-col space-y-5">
                   <h3 className="text-center uppercase text-lg md:text-2xl font-semibold leading-tight">
                     SIGN UP TO OUR NEWSLETTER & GET 10% OFF

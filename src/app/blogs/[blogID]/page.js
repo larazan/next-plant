@@ -12,6 +12,7 @@ import RelatedArticle from "@/app/components/RelatedArticle";
 import Help from "@/app/components/Help";
 import Tags from "@/app/components/Tags";
 import ShareIt from "@/app/components/ShareIt";
+import AuthorBubble from "@/app/components/AuthorBubble";
 
 export default function Detail() {
   return (
@@ -43,7 +44,7 @@ export default function Detail() {
         >
           <div className="flex flex-1 bottom-0 flex-col h-[260px] md:h-[400px] items-center justify-center bg-gray-600/30 backdrop-brightness-75">
             <div className="flex flex-1 flex-col pb-18 max-w-md md:max-w-2xl ">
-              <section className="w-full mx-auto  mt-0 md:mt-2 px-5">
+              <section className="w-full mx-auto  mt-0 md:mt-2 px-5 z-40">
                 {/* breadcrumb */}
                 <nav className="text-sm my-1" aria-label="Breadcrumb">
                   <ol className="list-none p-0 inline-flex">
@@ -77,18 +78,15 @@ export default function Detail() {
                   <h1 className="text-2xl leading-tight md:text-4xl font-semibold md:font-bold text-white">
                     6 Signs Of Overwatered Peace Lily (And Step By Step Fixes)
                   </h1>
-                  <div className="flex space-x-3">
-                    <div>
-                      <span className="text-sm font-semibold text-white">
-                        By <span className="underline">Roderick Scott</span>
-                      </span>
-                    </div>
+                  <div className="flex items-center space-x-3">
+                    <AuthorBubble />
                     <div>
                       <span className="text-sm text-white">
                         Updated October 2, 2023
                       </span>
                     </div>
                   </div>
+                  
                 </div>
               </section>
             </div>

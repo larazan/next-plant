@@ -132,7 +132,7 @@ export default function Blogs() {
                               <div
                                 className="m-0 mr-2 md:mr-5 flex aspect-[16/9] md:aspect-[16/9] h-fit flex-1 items-center justify-center"
                               >
-                                <Link href={"/blogs/3"} >
+                                <Link href={"/blogs/blog-one"} >
                                 <Image
                                   alt=""
                                   src={data.image}
@@ -147,7 +147,7 @@ export default function Blogs() {
                                 </div>
                                 <Link
                                   href={
-                                    "/blogs/3"
+                                    "/blogs/blog-one"
                                   }
                                   className="text-gray-900 hover:underline underline-offset-2"
                                 >

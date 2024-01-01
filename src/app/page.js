@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Hero from './components/Hero'
 import SubscribeForm from './components/SubscribeForm'
 import AdsModal from './components/AdsModal'
+import ArticleHome from './components/ArticleHome'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <GoTop />
       <Hero />
       <AdsModal />
+      <ArticleHome />
       <SubscribeForm />
       <Footer />
    </>

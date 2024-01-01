@@ -21,7 +21,22 @@ const Footer = () => {
                 </li>
                 <li>
                   <a className="md:hover:underline" href="/en/shop/babyplnts-home">
-                    All Baby houseplants
+                    Pots
+                  </a>
+                </li>
+                <li>
+                  <a className="md:hover:underline" href="/en/shop/babyplnts-home">
+                    Care
+                  </a>
+                </li>
+                <li>
+                  <a className="md:hover:underline" href="/en/shop/babyplnts-home">
+                    Accessories
+                  </a>
+                </li>
+                <li>
+                  <a className="md:hover:underline" href="/en/shop/babyplnts-home">
+                    Gifts
                   </a>
                 </li>
               </ul>
@@ -45,7 +60,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noreferrer noopener"
                   >
-                    Frequently asked questions
+                    FAQs
                   </a>
                 </li>
                 <li>

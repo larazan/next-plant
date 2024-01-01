@@ -27,7 +27,8 @@ import Pagination from "../components/Pagination";
 export default function Category() {
   const blogs = [
     {
-      title: "10 most wanted Philodendron varieties - selected by our community",
+      title:
+        "10 most wanted Philodendron varieties - selected by our community",
       url: "best-smartwatch-iphone",
       image: cat1,
     },
@@ -42,7 +43,8 @@ export default function Category() {
       image: cat3,
     },
     {
-      title: "10 most wanted Philodendron varieties - selected by our community",
+      title:
+        "10 most wanted Philodendron varieties - selected by our community",
       url: "best-smartwatch-iphone",
       image: cat4,
     },
@@ -67,40 +69,41 @@ export default function Category() {
       image: cat8,
     },
     {
-        title: "12 pretty plants that grow as an epiphyte ",
-        url: "best-smartwatch-iphone",
-        image: cat7,
-      },
-      {
-        title: "Alocasia Propagation Guide: How To Propagate Alocasia Plants",
-        url: "best-smartwatch-iphone",
-        image: cat8,
-      },
-      {
-        title: "12 pretty plants that grow as an epiphyte ",
-        url: "best-smartwatch-iphone",
-        image: cat7,
-      },
-      {
-        title: "Alocasia Propagation Guide: How To Propagate Alocasia Plants",
-        url: "best-smartwatch-iphone",
-        image: cat8,
-      },
-      {
-        title: "What is an epiphyte and which epiphyte plants are the prettiest? ",
-        url: "best-smartwatch-iphone",
-        image: cat9,
-      },
-      {
-        title: "Top 15 shadow plants in 2024",
-        url: "best-smartwatch-iphone",
-        image: cat10,
-      },
-      {
-        title: "Greenhouse Cabinets 101: the basics",
-        url: "best-smartwatch-iphone",
-        image: cat11,
-      },
+      title: "12 pretty plants that grow as an epiphyte ",
+      url: "best-smartwatch-iphone",
+      image: cat7,
+    },
+    {
+      title: "Alocasia Propagation Guide: How To Propagate Alocasia Plants",
+      url: "best-smartwatch-iphone",
+      image: cat8,
+    },
+    {
+      title: "12 pretty plants that grow as an epiphyte ",
+      url: "best-smartwatch-iphone",
+      image: cat7,
+    },
+    {
+      title: "Alocasia Propagation Guide: How To Propagate Alocasia Plants",
+      url: "best-smartwatch-iphone",
+      image: cat8,
+    },
+    {
+      title:
+        "What is an epiphyte and which epiphyte plants are the prettiest? ",
+      url: "best-smartwatch-iphone",
+      image: cat9,
+    },
+    {
+      title: "Top 15 shadow plants in 2024",
+      url: "best-smartwatch-iphone",
+      image: cat10,
+    },
+    {
+      title: "Greenhouse Cabinets 101: the basics",
+      url: "best-smartwatch-iphone",
+      image: cat11,
+    },
     //   {
     //     title: "Top 10 hanging plants in 2024",
     //     url: "best-smartwatch-iphone",
@@ -123,9 +126,9 @@ export default function Category() {
         <div className="relative z-0 w-full overflow-hidden bg-grayish h-[230px] md:h-[363px]">
           <Image src={bg} alt="" className=" object-cover h-full" />
 
-          <div class="absolute bottom-3 left-3 w-3/4 overflow-hidden lg:left-0 xl:bottom-8">
-            <span class="block">
-              <span class="relative z-10 h-[32px] box-decoration-clone px-3 py-2 font-serif leading-[2.6rem] md:leading-[3rem] lg:h-[76px] lg:px-6 lg:py-4 lg:leading-[4.9rem] xl:h-24 3xl:leading-[7rem] bg-white/85 text-black/[.99] text-xl md:text-3xl lg:text-6xl font-bold">
+          <div className="absolute bottom-3 left-3 w-3/4 overflow-hidden lg:left-0 xl:bottom-8">
+            <span className="block">
+              <span className="relative z-10 h-[32px] box-decoration-clone px-3 py-2 font-serif leading-[2.6rem] md:leading-[3rem] lg:h-[76px] lg:px-6 lg:py-4 lg:leading-[4.9rem] xl:h-24 3xl:leading-[7rem] bg-white/85 text-black/[.99] text-xl md:text-3xl lg:text-6xl font-bold">
                 Grow your home with PLNTS
               </span>
             </span>
@@ -134,17 +137,19 @@ export default function Category() {
 
         <section className="mb-8 py-8 bg-white">
           <div className="mx-auto max-w-3xl">
-            <h2 class="flex w-full font-bold text-2xl justify-center">All blogs lined up</h2>
-            <div class="mx-auto flex w-full max-w-4xl items-center justify-between pb-8 pt-8">
+            <h2 className="flex w-full font-bold text-2xl justify-center">
+              All blogs lined up
+            </h2>
+            <div className="mx-auto flex w-full max-w-4xl items-center justify-between pb-8 pt-8">
               <button
-                class="cursor-pointer inline-block2 leading-none select-none text-center focus:outline-none transition-colors disabled:cursor-not-allowed max-h-10 relative mr-4 text-gray-300 flex justify-center p-0 px-0"
+                className="cursor-pointer inline-block2 leading-none select-none text-center focus:outline-none transition-colors disabled:cursor-not-allowed max-h-10 relative mr-4 text-gray-300 flex justify-center p-0 px-0"
                 disabled=""
                 type="button"
                 data-variant="null_null"
               >
                 {" "}
                 <svg
-                  class="w-7 h-7 rounded-full bg-white p-1 md:rounded-none md:bg-transparent md:p-0"
+                  className="w-7 h-7 rounded-full bg-white p-1 md:rounded-none md:bg-transparent md:p-0"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -158,48 +163,48 @@ export default function Category() {
                   ></path>
                 </svg>
               </button>
-              <div class="overflow-hidden">
-                <div class="flex max-w-full gap-3">
+              <div className="overflow-hidden">
+                <div className="flex max-w-full gap-3">
                   <button
-                    class="cursor-pointer inline-block leading-none select-none text-center focus:outline-none transition-colors disabled:cursor-not-allowed max-h-10 relative rounded-full border p-0 border-black"
+                    className="cursor-pointer inline-block leading-none select-none text-center focus:outline-none transition-colors disabled:cursor-not-allowed max-h-10 relative rounded-full border p-0 border-black"
                     type="button"
                     data-variant="rounded_null"
                   >
                     {" "}
-                    <span class="flex h-full min-w-10 items-center justify-center p-4">
+                    <span className="flex h-full min-w-10 items-center justify-center p-4">
                       All
                     </span>
                   </button>
                   <button
-                    class="cursor-pointer inline-block leading-none select-none text-center focus:outline-none transition-colors disabled:cursor-not-allowed max-h-10 relative rounded-full border p-0 border-white"
+                    className="cursor-pointer inline-block leading-none select-none text-center focus:outline-none transition-colors disabled:cursor-not-allowed max-h-10 relative rounded-full border p-0 border-white"
                     type="button"
                     data-variant="rounded_null"
                   >
                     {" "}
-                    <span class="flex h-full min-w-10 items-center justify-center p-4">
+                    <span className="flex h-full min-w-10 items-center justify-center p-4">
                       Inspiration
                     </span>
                   </button>
                   <button
-                    class="cursor-pointer inline-block leading-none select-none text-center focus:outline-none transition-colors disabled:cursor-not-allowed max-h-10 relative rounded-full border p-0 border-white"
+                    className="cursor-pointer inline-block leading-none select-none text-center focus:outline-none transition-colors disabled:cursor-not-allowed max-h-10 relative rounded-full border p-0 border-white"
                     type="button"
                     data-variant="rounded_null"
                   >
                     {" "}
-                    <span class="flex h-full min-w-10 items-center justify-center p-4">
+                    <span className="flex h-full min-w-10 items-center justify-center p-4">
                       Tips
                     </span>
                   </button>
                 </div>
               </div>
               <button
-                class="cursor-pointer inline-block2 leading-none select-none text-center focus:outline-none transition-colors disabled:cursor-not-allowed max-h-10 relative ml-4 flex justify-center p-0 px-0"
+                className="cursor-pointer inline-block2 leading-none select-none text-center focus:outline-none transition-colors disabled:cursor-not-allowed max-h-10 relative ml-4 flex justify-center p-0 px-0"
                 type="button"
                 data-variant="null_null"
               >
                 {" "}
                 <svg
-                  class="w-7 h-7 rounded-full bg-white p-1 md:rounded-none md:bg-transparent md:p-0"
+                  className="w-7 h-7 rounded-full bg-white p-1 md:rounded-none md:bg-transparent md:p-0"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -217,17 +222,22 @@ export default function Category() {
             <div className="grid w-full grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
               {blogs.map((data, index) => {
                 return (
-<div className="group relative block h-50 hover:underline" key={index}>
-                <Image
-                  src={data.image}
-                  alt=""
-                  className="transform object-cover transition-transform group-hover:scale-105 h-full"
-                />
-                <span class="absolute bottom-0 m-3 block bg-white/80 p-3 font-serif">{data.title}</span>
-              </div>
-                )
+                  <Link
+                    className="group relative block h-50 hover:underline"
+                    key={index}
+                    href={"/category/article-one"}
+                  >
+                    <Image
+                      src={data.image}
+                      alt=""
+                      className="transform object-cover transition-transform group-hover:scale-105 h-full"
+                    />
+                    <span className="absolute bottom-0 m-3 block bg-white/80 p-3 font-serif">
+                      {data.title}
+                    </span>
+                  </Link>
+                );
               })}
-              
             </div>
             <Pagination />
           </div>
