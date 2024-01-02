@@ -165,18 +165,18 @@ const Menu = ({
                 >
                   Plant Encyclopedia
                 </Link>
-                <a
+                <Link
                   className="flex items-center h-8 text-base font-semibold text-white "
-                  href="#"
+                  href="/category"
                 >
                   Houseplants Article
-                </a>
-                <a
+                </Link>
+                <Link
                   className="flex items-center h-8 text-base font-semibold text-white "
-                  href="#"
+                  href="/collection"
                 >
                   Shop All
-                </a>
+                </Link>
               </div>
             </div>
           </Accordion>
@@ -197,7 +197,7 @@ const Menu = ({
                 </Link>
                 <Link
                   className="flex items-center h-8 text-base font-semibold text-white "
-                  href="shop"
+                  href="/collection"
                 >
                   Shop All
                 </Link>
@@ -209,19 +209,19 @@ const Menu = ({
               <div className="duration-300 px-4">
                 <Link
                   className="flex items-center h-8 text-base font-semibold text-white "
-                  href={"/breeds"}
+                  href={"/collection"}
                 >
                   Plants
                 </Link>
                 <Link
                   className="flex items-center h-8 text-base font-semibold text-white "
-                  href={"/breeds"}
+                  href={"/collection"}
                 >
                   Pots
                 </Link>
                 <Link
                   className="flex items-center h-8 text-base font-semibold text-white "
-                  href={"/category"}
+                  href={"/collection"}
                 >
                   Soils
                 </Link>
@@ -231,18 +231,18 @@ const Menu = ({
                 >
                   Care
                 </Link>
-                <a
+                <Link
                   className="flex items-center h-8 text-base font-semibold text-white "
-                  href="#"
+                  href="/collection"
                 >
                   Accessories
-                </a>
-                <a
+                </Link>
+                <Link
                   className="flex items-center h-8 text-base font-semibold text-white "
-                  href="#"
+                  href="/collection"
                 >
                   Gifts
-                </a>
+                </Link>
                 
               </div>
             </div>

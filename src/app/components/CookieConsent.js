@@ -14,7 +14,7 @@ const CookieConsent = () => {
       {isShow ? (
         <>
         <div className="fixed left-2 bottom-0 z-40 shadow-md">
-          <div className="fixed sm:left-2 bottom-2 border border-yellow-500 rounded-lg bg-[#fbd718] shadow-2xl w-full sm:w-1/2 xl:w-1/4 max-w-[250px] md:max-w-[250px] overflow-hidden">
+          <div className="fixed sm:left-2 bottom-2 border border-yellow-500 rounded bg-[#fbd718] shadow-2xl w-full sm:w-1/2 xl:w-1/4 max-w-[250px] md:max-w-[290px] overflow-hidden">
             <div className="">
               <div className="relative overflow-hidden px-4 md:px-6 pt-4 md:pt-6">
                 <div
@@ -39,17 +39,17 @@ const CookieConsent = () => {
                
                 <div className="pb-4 text-sm text-gray-800 leading-tight md:leading-snug">
                   <p>
-                  By using this website, you agree to our use of cookies. We use cookies to provide you with a great experience and to help our website run effectively.
+                  This website uses cookies to ensure you get the best experience.
                   </p>
                 </div>
               </div>
             </div>
 
             <div className="flex justify-center space-x-4 mx-auto w-11/12 pb-3">
-              <div onClick={handleClick} className="flex justify-center hover:underline text-sm py-1 rounded-md cursor-pointer text-[#073d30] font-semibold">
+              <div onClick={handleClick} className="flex justify-center items-center hover:bg-[#00634b] text-sm px-3 py-1 border border-[#00634b] hover:border-[#00634b] cursor-pointer text-[#073d30] hover:text-white font-semibold">
                 <span>Accept</span>
               </div>
-              <div onClick={handleClick} className="flex justify-center hover:underline text-sm  py-1  cursor-pointer text-gray-800 font-semibold">
+              <div onClick={handleClick} className="flex justify-center items-center hover:bg-[#00634b] text-sm px-3 py-1 border border-[#00634b] hover:border-[#00634b] cursor-pointer text-[#073d30] hover:text-white font-semibold">
                 <span>Decline</span>
               </div>
             </div>

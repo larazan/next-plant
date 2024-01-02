@@ -7,6 +7,8 @@ import Hero from './components/Hero'
 import SubscribeForm from './components/SubscribeForm'
 import AdsModal from './components/AdsModal'
 import ArticleHome from './components/ArticleHome'
+import CookieConsent from './components/CookieConsent'
+import CategoryHome from './components/CategoryHome'
 
 export default function Home() {
   return (
@@ -19,9 +21,11 @@ export default function Home() {
 
       <Header />
       <GoTop />
+      <CookieConsent />
       <Hero />
       <AdsModal />
       <ArticleHome />
+      <CategoryHome />
       <SubscribeForm />
       <Footer />
    </>

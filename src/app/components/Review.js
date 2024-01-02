@@ -25,9 +25,12 @@ import review9 from "@/assets/reviews/review9.jpg";
 import review10 from "@/assets/reviews/review10.jpg";
 
 import ModalReview from "./ModalReview";
+import AddReview from "./AddReview";
 
 const Review = () => {
   const [reviewModalOpen, setReviewModalOpen] = useState(false);
+  const [addReviewOpen, setAddReviewOpen] = useState(false);
+
   const [show, setShow] = useState(false);
   const shout = [
     {
@@ -147,7 +150,7 @@ const Review = () => {
               <button
                 className="filter place-content-center flex w-full justify-between px-3 items-center py-1 text-black focus:outline-none "
                 type="button"
-                onClick={() => setShow(!show)}
+                onClick={() => setAddReviewOpen(!addReviewOpen)}
               >
                 <span className="text-black block max-w-[23ch] truncate text-14 font-semibold xs:max-w-none xs:text-16">
                   Write a Review
@@ -172,7 +175,7 @@ const Review = () => {
             </div>
           </div>
           <div className="flex flex-col divide-y  py-5 border-y">
-            {show ? (
+            {/* {show ? (
               <div className="flex w-full space-x-2">
                 <div className="w-full md:w-1/2 flex flex-col space-y-2 pb-5">
                   <div>
@@ -273,7 +276,7 @@ const Review = () => {
               </div>
             ) : (
               <></>
-            )}
+            )} */}
 
             <div className="columns-2 md:columns-3 lg:columns-3 gap-3 md:gap-6 mt-4 mb-4 md:mt-8 md:mb-8 mx-auto py-6 w-full px-3 md:px-0 md:w-12/12 ">
               {shout.map((data, index) => {
@@ -382,6 +385,10 @@ const Review = () => {
       <ModalReview
         modalOpen={reviewModalOpen}
         setModalOpen={setReviewModalOpen}
+      />
+      <AddReview
+        addReviewOpen={addReviewOpen}
+        setAddReviewOpen={setAddReviewOpen}
       />
     </>
   );
