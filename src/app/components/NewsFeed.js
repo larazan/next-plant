@@ -42,67 +42,67 @@ const NewsFeed = () => {
 
   return (
     <>
-      <div class="border-b border-sold-out/50 bg-grayish">
-        <div class="grid-container overflow-x-hidden px-3 py-2 md:py-3 lg:px-0 lg:py-4">
+      <div className="md:border-b border-sold-out/50 bg-grayish">
+        <div className="grid-container overflow-x-hidden px-3 py-2 md:py-3 lg:px-0 lg:py-4">
           <ul
             style={{ transform: 'translateX(-200%)' }}
-            class="flex items-center transition-transform xl:gap-x-[4.5rem] xl:transition-none duration-[0ms]2 duration-500"
+            className="flex items-center transition-transform xl:gap-x-[4.5rem] xl:transition-none duration-[0ms]2 duration-500"
           >
-            <li class="w-full shrink-0 text-center text-xs before:mr-2 before:text-primary before:content-['\2713'] md:text-base xl:flex xl:w-auto xl:items-center xl:justify-center xl:text-left">
+            <li className="w-full shrink-0 text-center text-xs before:mr-2 before:text-primary before:content-['\2713'] md:text-base xl:flex xl:w-auto xl:items-center xl:justify-center xl:text-left">
               <span>
                 <a
                   href="/"
-                  class=""
+                  className=""
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <strong class="font-bold">Free shipping</strong> for orders
+                  <strong className="font-bold">Free shipping</strong> for orders
                   over €75,-
                 </a>
               </span>
             </li>
-            <li class="w-full shrink-0 text-center text-xs before:mr-2 before:text-primary before:content-['\2713'] md:text-base xl:flex xl:w-auto xl:items-center xl:justify-center xl:text-left">
+            <li className="w-full shrink-0 text-center text-xs before:mr-2 before:text-primary before:content-['\2713'] md:text-base xl:flex xl:w-auto xl:items-center xl:justify-center xl:text-left">
               <span>
-                <a class="" href="/">
+                <a className="" href="/">
                   30 days PLNTS{" "}
-                  <strong class="font-bold">health guarantee</strong>
+                  <strong className="font-bold">health guarantee</strong>
                 </a>
               </span>
             </li>
-            <li class="w-full shrink-0 text-center text-xs before:mr-2 before:text-primary before:content-['\2713'] md:text-base xl:flex xl:w-auto xl:items-center xl:justify-center xl:text-left">
+            <li className="w-full shrink-0 text-center text-xs before:mr-2 before:text-primary before:content-['\2713'] md:text-base xl:flex xl:w-auto xl:items-center xl:justify-center xl:text-left">
               <span>
                 <a
                   href="/"
-                  class=""
+                  className=""
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <strong class="font-bold">4.6/5</strong> out of{" "}
-                  <strong class="font-bold">18,700+ reviews</strong>
+                  <strong className="font-bold">4.6/5</strong> out of{" "}
+                  <strong className="font-bold">18,700+ reviews</strong>
                 </a>
               </span>
             </li>
-            <li class="w-full shrink-0 text-center text-xs before:mr-2 before:text-primary before:content-['\2713'] md:text-base xl:flex xl:w-auto xl:items-center xl:justify-center xl:text-left xl:invisible 3xl:visible">
+            <li className="w-full shrink-0 text-center text-xs before:mr-2 before:text-primary before:content-['\2713'] md:text-base xl:flex xl:w-auto xl:items-center xl:justify-center xl:text-left xl:invisible 3xl:visible">
               <span>
                 <a
                   href="/"
-                  class=""
+                  className=""
                   target="_blank"
                   rel="noreferrer noopener"
                 >
                   Ordered on weekdays before{" "}
-                  <strong class="font-bold">12pm</strong>, shipped today
+                  <strong className="font-bold">12pm</strong>, shipped today
                 </a>
               </span>
             </li>
-            <li class=" w-full shrink-0 text-center text-xs before:mr-2 before:text-primary before:content-['\2713'] md:text-base xl:hidden ">
+            <li className=" w-full shrink-0 text-center text-xs before:mr-2 before:text-primary before:content-['\2713'] md:text-base xl:hidden ">
               <a
                 href="/"
-                class=""
+                className=""
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <strong class="font-bold">Free shipping</strong> for orders over
+                <strong className="font-bold">Free shipping</strong> for orders over
                 €75,-
               </a>
             </li>

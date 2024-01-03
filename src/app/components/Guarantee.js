@@ -3,7 +3,7 @@ import React from 'react'
 const Guarantee = () => {
   return (
     <>
-        <div className="w-full py-6 bg-secondary text-white md:bg-grayish md:text-black">
+        <div className="w-full py-6 bg-secondary text-white bg-grayish md:bg-grayish md:text-black">
         <div className="grid-container grid w-full grid-cols-1 gap-3 md:grid-cols-12 xl:gap-4 px-3 xl:px-0">
           <div className="flex flex-col space-y-6 md:space-y-0 justify-between md:flex col-span-full md:flex-row">
             <div className="flex flex-1 flex-col justify-start xl:flex-row xl:justify-end items-center text-gray-900">
