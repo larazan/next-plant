@@ -122,7 +122,7 @@ const ProductShop = () => {
                 //   onMouseOver={e => console.log(e)}
                 />
                 </div>
-                <div className="p-2 flex flex-col justify-center2 items-center2 space-y-1 text-black/[0.9]">
+                {/* <div className="p-2 flex flex-col justify-center2 items-center2 space-y-1 text-black/[0.9]">
                   <h2 className="text-base text-center2 font-medium leading-tight">{data.title}</h2>
                   <div className="flex items-center2 text-black/[0.5]">
                     <p className="mr-2 text-lg text-gray-950 font-semibold">
@@ -137,7 +137,19 @@ const ProductShop = () => {
                       </>
                     )}
                   </div>
-                </div>
+                </div> */}
+                <section className="flex grow flex-col justify-start lg:mt-2 lg:justify-between">
+                    <span className="truncate m-0 font-sans text-sm font-bold leading-tight 3xl:text-base text-gray-900">
+                      {data.title}
+                    </span>
+                    <span className="text-sm italic leading-none lg:text-base 3xl:text-base text-gray-900">
+                      {data.category}
+                    </span>
+                    <span className="flex flex-row items-center gap-2 text-sm leading-tight 3xl:text-base">
+                      <span className="font-normal line-through decoration-sale text-gray-900">€29.95</span>
+                      <span className="font-bold text-sale">€32.95</span>
+                    </span>
+                  </section>
               </Link>
             );
           })}

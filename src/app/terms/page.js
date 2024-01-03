@@ -23,7 +23,7 @@ export default function Terms() {
         <div className="flex mx-auto w-11/12 md:w-10/12 bg-white rounded-md shadow border">
           <div className="flex py-10 flex-col space-y-10 mx-auto w-10/12">
             <div>
-              <span className="text-3xl md:text-4xl font-bold md:leading-snug ">
+              <span className="text-3xl md:text-4xl font-bold md:leading-snug text-gray-900">
                 Terms & Conditions
               </span>
             </div>
@@ -105,11 +105,11 @@ export default function Terms() {
                 <ul className="list-disc space-y-2">
                   <li>
                     Import Permit:
-                    https://www.aphis.usda.gov/aphis/resources/sa_epermits/sa_plants/ppq-epermits
+                    <p className="truncate...">https://www.aphis.usda.gov/aphis/resources/sa_epermits/sa_plants/ppq-epermits</p>
                   </li>
                   <li>
                     Green Labels :
-                    https://www.aphis.usda.gov/aphis/ourfocus/planthealth/import-information/permits/plants-and-plant-products-permits/plants-plantproducts-shipping-labels
+                    <p className="truncate...">https://www.aphis.usda.gov/aphis/ourfocus/planthealth/import-information/permits/plants-and-plant-products-permits/plants-plantproducts-shipping-labels</p>
                   </li>
                 </ul>
 
@@ -118,7 +118,7 @@ export default function Terms() {
                 </div>
                 <ul className="list-disc">
                   <li>
-                    https://www.trade.gov/country-commercial-guides/canada-import-requirements-and-documentation
+                  <p className="truncate...">https://www.trade.gov/country-commercial-guides/canada-import-requirements-and-documentation</p>
                   </li>
                 </ul>
                 <div className="py-2 underline underline-offset-1 font-semibold ">
@@ -126,13 +126,13 @@ export default function Terms() {
                 </div>
                 <ul className="list-disc space-y-2">
                   <li>
-                    https://www.daera-ni.gov.uk/articles/import-and-export-plants
+                  <p className="truncate...">https://www.daera-ni.gov.uk/articles/import-and-export-plants</p>
                   </li>
                   <li>
-                    https://www.gov.uk/guidance/import-of-products-animals-food-and-feed-system
+                  <p className="truncate...">https://www.gov.uk/guidance/import-of-products-animals-food-and-feed-system</p>
                   </li>
                   <li>
-                    https://business.gov.nl/regulation/phytosanitary-inspections/
+                  <p className="truncate...">https://business.gov.nl/regulation/phytosanitary-inspections/</p>
                   </li>
                 </ul>
               </span>

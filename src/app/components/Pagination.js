@@ -5,7 +5,7 @@ const Pagination = () => {
   return (
     <>
       <div className="flex bg-white items-center justify-center">
-        <div className="flex items-center justify-center mt-12 mb-10 space-x-2">
+        <div className="flex items-center justify-center mt-12 mb-10 space-x-1 md:space-x-2">
           <button
             disabled=""
             className="flex items-center space-x-1 p-1.5 md:p-2 text-[#191919] disabled:text-[#A3A3A3] disabled:cursor-not-allowed"
@@ -25,7 +25,7 @@ const Pagination = () => {
                 d="M15.75 19.5 8.25 12l7.5-7.5"
               />
             </svg>
-            <span className="text-sm">Previous</span>
+            <span className="text-sm">Prev</span>
           </button>
           <Link
             className="p-1 w-8 h-8 md:w-8 md:h-8 text-center text-sm font-medium flex justify-center items-center text-white bg-[#818280]"

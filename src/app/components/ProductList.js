@@ -113,8 +113,8 @@ const ProductList = () => {
                 className="relative overflow-hidden md:transform md:transition-all cursor-pointer"
                 key={index}
               >
-                <a
-                  href=""
+                <Link
+                  href="/detail"
                   className="group relative flex flex-col justify-start"
                 >
                   <div className="aspect-h-305 aspect-w-246 bg-grayish transform transition-transform  md:motion-safe:group-hover:scale-110">
@@ -151,18 +151,18 @@ const ProductList = () => {
                   </button>
 
                   <section className="flex grow flex-col justify-start lg:mt-2 lg:justify-between">
-                    <span className="truncate m-0 font-sans text-sm font-bold leading-tight 3xl:text-base">
+                    <span className="truncate m-0 font-sans text-sm font-bold leading-tight 3xl:text-base text-gray-900">
                       {data.title}
                     </span>
-                    <span className="text-sm italic leading-none lg:text-base 3xl:text-base">
+                    <span className="text-sm italic leading-none lg:text-base 3xl:text-base text-gray-900">
                       {data.category}
                     </span>
                     <span className="flex flex-row items-center gap-2 text-sm leading-tight 3xl:text-base">
-                      <span className="font-normal line-through decoration-sale">€29.95</span>
+                      <span className="font-normal line-through decoration-sale text-gray-900">€29.95</span>
                       <span className="font-bold text-sale">€32.95</span>
                     </span>
                   </section>
-                </a>
+                </Link>
               </article>
               // <Link
               //   href={`/detail`}

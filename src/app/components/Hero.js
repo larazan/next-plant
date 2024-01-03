@@ -60,7 +60,7 @@ const Hero = () => {
               viewBox="0 0 24 24"
               strokeWidth={2}
               stroke="currentColor"
-              className="w-9 h-9"
+              className="w-6 h-6 md:w-9 md:h-9 "
             >
               <path
                 strokeLinecap="round"
@@ -79,7 +79,7 @@ const Hero = () => {
               viewBox="0 0 24 24"
               strokeWidth={2}
               stroke="currentColor"
-              className="w-9 h-9"
+              className="w-6 h-6 md:w-9 md:h-9"
             >
               <path
                 strokeLinecap="round"

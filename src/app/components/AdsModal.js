@@ -16,7 +16,7 @@ const AdsModal = () => {
     <>
       {isShow ? (
         <>
-          <div className="fixed inset-0 z-50 overflow-hidden flex items-start top-[20%] md:top-[10%] mb-4 justify-center transform px-4 sm:px-6 ">
+          <div className="fixed inset-0 z-50 overflow-hidden flex items-start top-[10%] md:top-[10%] mb-4 justify-center transform px-4 sm:px-6 ">
             <div className="relative bg-white overflow-auto max-w-3xl w-full max-h-full rounded2 shadow-lg">
               {/* Search form */}
               <section className="overflow-hidden  shadow-2xl md:grid md:grid-cols-1">
@@ -47,7 +47,7 @@ const AdsModal = () => {
                 </button>
 
                 <div className="p-4 text-center sm:p-6 md:col-span-2 lg:p-8">
-                  <p className="text-2xl font-bold uppercase tracking-widest">
+                  <p className="text-2xl font-bold uppercase tracking-widest text-gray-900">
                     THE BIGGEST DEAL OF THE YEAR
                   </p>
 

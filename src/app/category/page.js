@@ -135,9 +135,9 @@ export default function Category() {
           </div>
         </div>
 
-        <section className="mb-8 py-8 bg-white">
-          <div className="mx-auto max-w-3xl">
-            <h2 className="flex w-full font-bold text-2xl justify-center">
+        <section className="mb-8 py-8 bg-white ">
+          <div className="mx-auto md:max-w-3xl w-11/12">
+            <h2 className="flex w-full font-bold text-2xl md:text-2xl justify-center text-gray-900">
               All blogs lined up
             </h2>
             <div className="mx-auto flex w-full max-w-4xl items-center justify-between pb-8 pt-8">
@@ -149,7 +149,7 @@ export default function Category() {
               >
                 {" "}
                 <svg
-                  className="w-7 h-7 rounded-full bg-white p-1 md:rounded-none md:bg-transparent md:p-0"
+                  className="w-6 h-6 md:w-7 md:h-7 text-gray-900 rounded-full bg-white p-1 md:rounded-none md:bg-transparent md:p-0"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -171,7 +171,7 @@ export default function Category() {
                     data-variant="rounded_null"
                   >
                     {" "}
-                    <span className="flex h-full min-w-10 items-center justify-center p-4">
+                    <span className="flex h-full text-gray-900 min-w-10 items-center justify-center px-3 py-1.5 md:p-4">
                       All
                     </span>
                   </button>
@@ -181,7 +181,7 @@ export default function Category() {
                     data-variant="rounded_null"
                   >
                     {" "}
-                    <span className="flex h-full min-w-10 items-center justify-center p-4">
+                    <span className="flex h-full text-gray-900 min-w-10 items-center justify-center px-3 py-1.5 md:p-4">
                       Inspiration
                     </span>
                   </button>
@@ -191,7 +191,7 @@ export default function Category() {
                     data-variant="rounded_null"
                   >
                     {" "}
-                    <span className="flex h-full min-w-10 items-center justify-center p-4">
+                    <span className="flex h-full text-gray-900 min-w-10 items-center justify-center px-3 py-1.5 md:p-4">
                       Tips
                     </span>
                   </button>
@@ -204,7 +204,7 @@ export default function Category() {
               >
                 {" "}
                 <svg
-                  className="w-7 h-7 rounded-full bg-white p-1 md:rounded-none md:bg-transparent md:p-0"
+                  className="w-6 h-6 md:w-7 md:h-7 text-gray-900 rounded-full bg-white p-1 md:rounded-none md:bg-transparent md:p-0"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -232,7 +232,7 @@ export default function Category() {
                       alt=""
                       className="transform object-cover transition-transform group-hover:scale-105 h-full"
                     />
-                    <span className="absolute bottom-0 m-3 block bg-white/80 p-3 font-serif">
+                    <span className="absolute bottom-0 m-3 block bg-white/80 p-3 font-serif text-gray-900">
                       {data.title}
                     </span>
                   </Link>

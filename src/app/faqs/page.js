@@ -80,7 +80,7 @@ export default function Faqs() {
       <div className="flex bg-white min-h-screen w-full  pt-10 pb-10 md:pt-[20px]">
           <div className="flex flex-row w-full">
             <div className="flex w-full flex-1 flex-col items-center justify-center relative">
-              <div className="flex w-full flex-1 flex-col pb-18 max-w-md md:max-w-2xl ">
+              <div className="flex w-full flex-1  flex-col pb-18 md:max-w-2xl ">
                 
                 <section className="w-full mx-auto mt-6 md:mt-6 px-5 text-[#073d30]">
                   <h5 className="font-semibold md:font-bold text-2xl md:text-4xl text-center ">

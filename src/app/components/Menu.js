@@ -161,7 +161,7 @@ const Menu = ({
               <div className="duration-300 px-4">
               <Link
                   className="flex items-center h-8 text-base font-semibold text-white "
-                  href={"/plants"}
+                  href={"/plant"}
                 >
                   Plant Encyclopedia
                 </Link>
@@ -185,7 +185,7 @@ const Menu = ({
               <div className="duration-300 px-4">
                 <Link
                   className="flex items-center h-8 text-base font-semibold text-white "
-                  href={"/plants"}
+                  href={"/plant"}
                 >
                   Plant Encyclopedia
                 </Link>

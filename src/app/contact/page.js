@@ -19,7 +19,7 @@ export default function Contact() {
       <Header />
       <GoTop />
 
-      <div className="max-w-screen-xl mt-0 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 md:py-24 mx-auto bg-white text-gray-900 rounded-lg shadow-lg">
+      <div className="max-w-screen-xl mt-0 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 md:py-24 mx-auto bg-white text-gray-900  shadow-lg">
         <div className="flex flex-col space-y-4">
           <div className="flex flex-col space-y-3">
             <h2 className="text-4xl lg:text-5xl font-bold leading-tight">

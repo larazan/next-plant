@@ -330,7 +330,7 @@ export default function Detail() {
 
               {/* SOURCE */}
               <div className="px-6 md:px-4 pt-4">
-                <span className=" text-sm italic">
+                <span className=" text-sm italic text-gray-900">
                   A version of this article was originally written by Clare
                   McHugh and first appeared on Health.com.
                 </span>

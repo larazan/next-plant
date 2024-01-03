@@ -19,14 +19,14 @@ const AuthorBubble = () => {
                 <Image src={ava} alt="" />
             </div>
             
-            <div className="flex flex-col items-center text-lio-500 text-center">
+            <div className="flex flex-col items-center text-gray-900 text-center">
               <span className="flex min-w-8 h-8 px-2 bg-lio-100 font-bold rounded items-center justify-center">
                 1
               </span>
               <span className="text-sm">Articles</span>
             </div>
 
-            <div className="flex flex-col items-center text-lio-500 text-center">
+            <div className="flex flex-col items-center text-gray-900 text-center">
               <span className="flex min-w-8 h-8 px-2 bg-lio-100 font-bold rounded items-center justify-center">
                 0
               </span>
@@ -35,7 +35,7 @@ const AuthorBubble = () => {
           </div>
 
           <div className="flex flex-col bg-gray-100 py-1 px-2 md:p-3 text-sm rounded-b">
-            <span>Roderick Scott</span>
+            <span className="text-gray-900">Roderick Scott</span>
             <span className="text-gray-500">Active: November 2023</span>
           </div>
         </div>

@@ -6,7 +6,7 @@ const Help = () => {
     <>
       <div className=" mt-4 py-3 mx-5 flex border border-gray-800 rounded justify-center space-x-2 items-center">
         <div>
-          <span className="font-mabry text-base">Was this page helpful?</span>
+          <span className="font-mabry text-base text-gray-900">Was this page helpful?</span>
         </div>
         <div className="flex space-x-2">
           <Link href={""}>
@@ -16,7 +16,7 @@ const Help = () => {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-5 h-5 hover:text-pink-700"
+              className="w-5 h-5 text-gray-900 hover:text-pink-700"
             >
               <path
                 strokeLinecap="round"
@@ -32,7 +32,7 @@ const Help = () => {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-5 h-5  hover:text-pink-700"
+              className="w-5 h-5 text-gray-900 hover:text-pink-700"
             >
               <path
                 strokeLinecap="round"

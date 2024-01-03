@@ -86,6 +86,7 @@ input[type='number']::-webkit-outer-spin-button {
 }
 
 .markdown-blog h2 {
+  color: #1b1b1b;
   font-size: 36px;
   line-height: 56px;
 }
@@ -102,6 +103,7 @@ input[type='number']::-webkit-outer-spin-button {
   /* line-height: 1.25rem; */
 }
 .markdown-blog h3 {
+  color: #1b1b1b;
   margin-top: 1.4rem;
   margin-bottom: 1.0rem;
   font-size: 1.25rem;
@@ -176,7 +178,18 @@ input[type='number']::-webkit-outer-spin-button {
 .bg-sale\/80 {
   background-color: rgba(198,30,25,.8);
 }
-
+.text-sold-out {
+  --tw-text-opacity: 1;
+  color: rgb(126 135 132/var(--tw-text-opacity));
+}
+.border-sold-out {
+  --tw-border-opacity: 1;
+  border-color: rgb(126 135 132/var(--tw-border-opacity));
+}
+.border-grayish {
+  --tw-border-opacity: 1;
+  border-color: rgb(243 244 243/var(--tw-border-opacity));
+}
 
 .member:after {
   top: -1rem;

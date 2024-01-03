@@ -23,7 +23,7 @@ export default function Return() {
         <div className="flex mx-auto w-11/12 md:w-10/12 bg-white rounded-md shadow border">
           <div className="flex py-10 flex-col space-y-10 mx-auto w-10/12">
             <div>
-              <span className="text-3xl md:text-4xl font-bold md:leading-snug ">
+              <span className="text-3xl md:text-4xl font-bold md:leading-snug text-gray-900">
                 Return Policy
               </span>
             </div>

@@ -24,7 +24,7 @@ const CategoryNav = () => {
           <ul className="scrollbar-fix no-scrollbar flex h-full w-full flex-row items-center justify-between overflow-y-scroll whitespace-nowrap">
             <li>
               <a
-                className="cursor-pointer rounded-full border px-4 py-2 text-sm font-bold text-sold-out hover:border-sold-out border-sold-out text-sold-out"
+                className="cursor-pointer rounded-full border px-4 py-2 text-sm font-bold text-sold-out hover:border-gray-400 border-sold-out text-sold-out"
                 href="/en/shop/all-plnts"
               >
                 <span>all plants</span>
@@ -40,7 +40,7 @@ const CategoryNav = () => {
             </li>
             <li>
               <a
-                className="cursor-pointer rounded-full border px-4 py-2 text-sm border-grayish text-sold-out hover:border-sold-out"
+                className="cursor-pointer rounded-full border px-4 py-2 text-sm border-grayish text-sold-out hover:border-gray-400"
                 href="/en/shop/new-releases"
               >
                 <span>new releases</span>
@@ -56,7 +56,7 @@ const CategoryNav = () => {
             </li>
             <li>
               <a
-                className="cursor-pointer rounded-full border px-4 py-2 text-sm border-grayish text-sold-out hover:border-sold-out"
+                className="cursor-pointer rounded-full border px-4 py-2 text-sm border-grayish text-sold-out hover:border-gray-400"
                 href="/en/shop/pots"
               >
                 <span>pots</span>
@@ -64,7 +64,7 @@ const CategoryNav = () => {
             </li>
             <li>
               <a
-                className="cursor-pointer rounded-full border px-4 py-2 text-sm border-grayish text-sold-out hover:border-sold-out"
+                className="cursor-pointer rounded-full border px-4 py-2 text-sm border-grayish text-sold-out hover:border-gray-400"
                 href="/en/shop/accessories"
               >
                 <span>accessories</span>
@@ -72,7 +72,7 @@ const CategoryNav = () => {
             </li>
             <li>
               <a
-                className="cursor-pointer rounded-full border px-4 py-2 text-sm border-grayish text-sold-out hover:border-sold-out"
+                className="cursor-pointer rounded-full border px-4 py-2 text-sm border-grayish text-sold-out hover:border-gray-400"
                 href="/en/shop/care-products"
               >
                 <span>care products</span>
@@ -80,7 +80,7 @@ const CategoryNav = () => {
             </li>
             <li>
               <a
-                className="cursor-pointer rounded-full border px-4 py-2 text-sm border-grayish text-sold-out hover:border-sold-out"
+                className="cursor-pointer rounded-full border px-4 py-2 text-sm border-grayish text-sold-out hover:border-gray-400"
                 href="/en/shop/gift-ideas"
               >
                 <span>gift ideas</span>

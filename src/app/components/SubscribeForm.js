@@ -12,7 +12,7 @@ const SubscribeForm = () => {
             <div className="w-full ">
               <div className="w-full px-4 py-6 md:p-8 bg-white border-t-2 ">
                 <div className="flex flex-col space-y-5">
-                  <h3 className="text-center uppercase text-lg md:text-2xl font-semibold leading-tight">
+                  <h3 className="text-center uppercase text-lg md:text-2xl text-gray-900 font-semibold leading-tight">
                     SIGN UP TO OUR NEWSLETTER & GET 10% OFF
                   </h3>
 
@@ -33,7 +33,7 @@ const SubscribeForm = () => {
                     </span>
                   </div>
                   <div className="flex space-x-3 mx-auto w-11/12 justify-center">
-                    <div className="flex items-center rounded-full p-2 transition duration-500 ease-in-out hover:text-white hover:scale-1052 hover:bg-gray-900 cursor-pointer">
+                    <div className="flex items-center rounded-full p-2 transition duration-500 ease-in-out text-gray-900 hover:text-white hover:scale-1052 hover:bg-gray-900 cursor-pointer">
                       <svg
                         aria-hidden="true"
                         focusable="false"
@@ -46,7 +46,7 @@ const SubscribeForm = () => {
                         ></path>
                       </svg>
                     </div>
-                    <div className="flex items-center rounded-full p-2 transition duration-500 ease-in-out hover:text-white hover:scale-1052 hover:bg-gray-900 cursor-pointer">
+                    <div className="flex items-center rounded-full p-2 transition duration-500 ease-in-out text-gray-900 hover:text-white hover:scale-1052 hover:bg-gray-900 cursor-pointer">
                       <svg
                         aria-hidden="true"
                         focusable="false"
@@ -59,7 +59,7 @@ const SubscribeForm = () => {
                         ></path>
                       </svg>
                     </div>
-                    <div className="flex items-center rounded-full p-2 transition duration-500 ease-in-out hover:text-white hover:scale-1052 hover:bg-gray-900 cursor-pointer">
+                    <div className="flex items-center rounded-full p-2 transition duration-500 ease-in-out text-gray-900 hover:text-white hover:scale-1052 hover:bg-gray-900 cursor-pointer">
                       <svg
                         aria-hidden="true"
                         focusable="false"
@@ -72,7 +72,7 @@ const SubscribeForm = () => {
                         ></path>
                       </svg>
                     </div>
-                    <div className="flex items-center rounded-full p-2 transition duration-500 ease-in-out hover:text-white hover:scale-1052 hover:bg-gray-900 cursor-pointer">
+                    <div className="flex items-center rounded-full p-2 transition duration-500 ease-in-out text-gray-900 hover:text-white hover:scale-1052 hover:bg-gray-900 cursor-pointer">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="icon icon-tabler icon-tabler-brand-twitter-filled"

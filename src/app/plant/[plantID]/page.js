@@ -54,7 +54,7 @@ export default function Detail() {
 
       <div className="flex flex-col bg-white min-h-screen relative2">
         <div className="bg-[#f8f3e7] py-5 mb-0">
-          <h1 className="relative mx-3 md:mx-auto text-3xl md:text-5xl md:leading-[60px] max-w-3xl m-auto font-semibold text-center mt-4 sm:mt-6 mb-5 sm:mb-0">
+          <h1 className="relative mx-3 md:mx-auto text-gray-900 text-3xl md:text-5xl md:leading-[60px] max-w-3xl m-auto font-semibold text-center mt-4 sm:mt-6 mb-5 sm:mb-0">
           How to Plant and Grow Lavender
           </h1>
 

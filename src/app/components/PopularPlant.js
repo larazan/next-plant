@@ -167,10 +167,10 @@ const PopularPlant = () => {
                           <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                         </Link>{" "}
                         <div className="px-3 py-2 flex flex-col justify-between leading-tight">
-                          <h3 className="my-[0.25em] mx-[0em] overflow-hidden break-words text-md md:text-lg leading-tight md:leading-tight font-semibold capitalize">
+                          <h3 className="my-[0.25em] mx-[0em] overflow-hidden text-gray-900 break-words text-md md:text-lg leading-tight md:leading-tight font-semibold capitalize">
                             <Link href="/plants/roses">{data.title}</Link>
                           </h3>{" "}
-                          <div className="font-mabry text-xs">
+                          <div className="font-mabry text-xs text-gray-900">
                             May 9th, 2023
                           </div>
                         </div>

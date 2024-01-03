@@ -105,8 +105,8 @@ const ArticleHome = () => {
   return (
     <>
       <section className=" py-8 bg-white">
-        <div className="mx-auto max-w-3xl">
-          <h2 className="flex w-full font-bold text-2xl justify-center">
+        <div className="mx-auto w-11/12 md:max-w-3xl">
+          <h2 className="flex w-full font-bold text-2xl md:text-2xl justify-center text-gray-900">
             Recent Articles
           </h2>
 
@@ -123,7 +123,7 @@ const ArticleHome = () => {
                     alt=""
                     className="transform object-cover transition-transform group-hover:scale-105 h-full"
                   />
-                  <span className="absolute bottom-0 m-3 block bg-white/80 p-3 font-serif">
+                  <span className="absolute bottom-0 m-3 block bg-white/80 p-3 font-serif text-gray-900">
                     {data.title}
                   </span>
                 </Link>

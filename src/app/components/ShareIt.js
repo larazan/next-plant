@@ -6,7 +6,7 @@ const ShareIt = () => {
       <div className="fixed right-0 md:left-0 top-[50%] md:top-[35%] z-30 cursor-pointer">
         <div className="relative w-[50px] py-2 shadow-2xl md:rounded-r-lg bg-white">
           <div className=" flex flex-col space-y-1.5 justify-center items-center w-full h-full ">
-            <div className="flex items-center rounded-full p-2 transition duration-500 ease-in-out hover:text-white hover:scale-1052 hover:bg-gray-900 cursor-pointer">
+            <div className="flex items-center rounded-full p-2 transition duration-500 ease-in-out text-gray-900  hover:text-white hover:scale-1052 hover:bg-gray-900 cursor-pointer">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -19,7 +19,7 @@ const ShareIt = () => {
                 ></path>
               </svg>
             </div>
-            <div className="flex items-center rounded-full p-2 transition duration-500 ease-in-out hover:text-white hover:scale-1052 hover:bg-gray-900 cursor-pointer">
+            <div className="flex items-center rounded-full p-2 transition duration-500 ease-in-out text-gray-900  hover:text-white hover:scale-1052 hover:bg-gray-900 cursor-pointer">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -32,7 +32,7 @@ const ShareIt = () => {
                 ></path>
               </svg>
             </div>
-            <div className="flex items-center rounded-full p-2 transition duration-500 ease-in-out hover:text-white hover:scale-1052 hover:bg-gray-900 cursor-pointer">
+            <div className="flex items-center rounded-full p-2 transition duration-500 ease-in-out text-gray-900  hover:text-white hover:scale-1052 hover:bg-gray-900 cursor-pointer">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -45,7 +45,7 @@ const ShareIt = () => {
                 ></path>
               </svg>
             </div>
-            <div className="flex items-center rounded-full p-2 transition duration-500 ease-in-out hover:text-white hover:scale-1052 hover:bg-gray-900 cursor-pointer">
+            <div className="flex items-center rounded-full p-2 transition duration-500 ease-in-out text-gray-900  hover:text-white hover:scale-1052 hover:bg-gray-900 cursor-pointer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="icon icon-tabler icon-tabler-brand-twitter-filled"
@@ -66,7 +66,7 @@ const ShareIt = () => {
                 />
               </svg>
             </div>
-            <div className="flex items-center rounded-full p-2 transition duration-500 ease-in-out hover:text-white hover:scale-1052 hover:bg-gray-900 cursor-pointer">
+            <div className="flex items-center rounded-full p-2 transition duration-500 ease-in-out text-gray-900  hover:text-white hover:scale-1052 hover:bg-gray-900 cursor-pointer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="icon icon-tabler icon-tabler-flag-filled"

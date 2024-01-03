@@ -26,12 +26,12 @@ const HeroShop = () => {
                 </span>
               </a>
             </span> */}
-            <div className="hidden md:flex">
-              <section className="z-20 flex w-full flex-col justify-center gap-4 overflow-hidden text-center text-white md:text-left h-auto px-8 py-5 md:h-[435px] md:max-w-[522px] md:px-10 md:py-0 lg:min-w-[522px] xl:px-20  md:bg-[#5f574a]/85 [&amp;_h1]:text-white">
+            <div className=" flex">
+              <section className="z-20 flex w-full flex-col justify-center gap-4 overflow-hidden text-center text-white md:text-left h-auto px-8 py-5 md:h-[435px] md:max-w-[522px] md:px-10 md:py-0 lg:min-w-[522px] xl:px-20  bg-[#5f574a]/85 [&amp;_h1]:text-white">
                 <h1 className="flex flex-col items-center justify-start text-xl md:items-start md:text-6xl">
                   care products
                 </h1>
-                <p>
+                <p className="text-sm md:text-base">
                   We&lsquo;ve got all of the care products you need to ensure your
                   plants grow up to be healthy, happy and strong. Your green
                   thumb worries will be a thing of the past with our super

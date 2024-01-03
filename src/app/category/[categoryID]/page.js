@@ -32,7 +32,7 @@ export default function Detail() {
         <div className="relative z-0 w-full overflow-hidden bg-grayish h-[230px] md:h-[363px]">
           <Image src={bg} alt="" className=" object-cover h-full" />
           <div class="absolute flex mx-auto w-10/12 bottom-0 m-3 bg-white/80 p-3 font-serif text-xl md:text-3xl font-bold">
-            <span>Alocasia Propagation Guide: How To Propagate Alocasia Plants</span>
+            <span className="text-gray-900">Alocasia Propagation Guide: How To Propagate Alocasia Plants</span>
         </div>
           
         </div>
@@ -290,7 +290,7 @@ export default function Detail() {
                 </a>
               </div>
 
-                            <Author />
+                <Author />
               {/* <Tags /> */}
             </div>
           </div>
