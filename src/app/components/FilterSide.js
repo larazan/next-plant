@@ -6,7 +6,7 @@ import Image from "next/image";
 
 import Accordion from "./Accordion";
 
-const FilterSide = ({ isOpen, handleClose, setIsOpen }) => {
+const FilterSide = () => {
   return (
     <>
       <div className="hidden md:col-start-1 md:col-end-5 md:row-start-2 md:block lg:pr-6 xl:col-end-4">

@@ -32,7 +32,7 @@ const HeroShop = () => {
                   care products
                 </h1>
                 <p>
-                  We've got all of the care products you need to ensure your
+                  We&lsquo;ve got all of the care products you need to ensure your
                   plants grow up to be healthy, happy and strong. Your green
                   thumb worries will be a thing of the past with our super
                   selection of curated plant health products.

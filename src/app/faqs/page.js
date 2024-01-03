@@ -103,7 +103,7 @@ export default function Faqs() {
                 </section>
 
                 <div className="py-20">
-                    <h1 className="py-2 text-2xl">Can't find what you're looking for?</h1>
+                    <h1 className="py-2 text-2xl">Can&lsquo;t find what you&lsquo;re looking for?</h1>
                     <div className="py-2 text-sm leading-tight">
                     Send us an email to tell us what’s up and someone from our Customer Service team will get back to you as soon as possible. Be sure to include your order number (if you have one).
                     </div>

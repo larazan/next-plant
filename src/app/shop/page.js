@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 import Guarantee from "../components/Guarantee";
 import HeroShop from '../components/HeroShop';
 import ProductShop from '../components/ProductShop';
+import NewsFeed from '../components/NewsFeed';
 
 export default function Shop() {
   return (
@@ -19,6 +20,7 @@ export default function Shop() {
 
       <Header />
       <GoTop />
+      <NewsFeed />
         <HeroShop />
         <ProductShop />
         

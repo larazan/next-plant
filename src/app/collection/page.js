@@ -14,6 +14,8 @@ import FilterSide from "../components/FilterSide";
 import SortOpt from "../components/SortOpt";
 import CategoryNav from "../components/CategoryNav";
 import Guarantee from "../components/Guarantee";
+import NewsFeed from "../components/NewsFeed";
+import FilterPopup from "../components/FilterPopup";
 
 export default function Collection() {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,22 +34,51 @@ export default function Collection() {
 
       <Header />
       <GoTop />
+      <NewsFeed />
       <Slideshow />
       <CategoryNav />
       <div className="w-full bg-white">
         <main className="mx-auto max-w-4xl">
+        <div className="flex w-24 rounded border-black  border-2 border-solid hover:shadow-md transform duration-200 hover:scale-105">
+            <button
+              className="filter2 place-content-center flex w-full space-x-2 px-1.5 items-center py-1 text-black focus:outline-none "
+              type="button"
+              onClick={() => setIsOpen(!isOpen)}
+            >
+              
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-6 h-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75"
+                  />
+                </svg>
+              </div>
+              <span className="text-sm font-semibold">Filter</span>
+            </button>
+          </div>
           <div className="grid-container grid  w-full grid-cols-1 gap-3 md:grid-cols-12 xl:gap-4 px-3 pb-12 pt-0 md:pb-16 md:pt-6 lg:px-0">
             <SortOpt />
-            <FilterSide
-              isOpen={isOpen}
-              handleClose={handleClose}
-              setIsOpen={setIsOpen}
-            />
+            <FilterSide />
             <ProductList />
           </div>
         </main>
       </div>
       <Guarantee />
+
+      <FilterPopup 
+        isOpen={isOpen}
+        handleClose={handleClose}
+        setIsOpen={setIsOpen}
+      />
       <Footer />
     </>
   );

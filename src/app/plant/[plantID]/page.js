@@ -267,7 +267,7 @@ export default function Detail() {
                 </div>
                 <article>
                   <p>
-                  When you see photos of the famed lavender fields of Provence, France, it's love at first sight. A shrubby perennial native to the Mediterranean region, lavender might be the most enjoyable of all herbs. It appeals to almost every sense, with its calming scent, pungent taste, dainty flowers, and velvety gray-green leaves. Bonus points: It is deer-resistant and attracts butterflies and pollinators! Successfully growing lavender, however, depends on your type of garden soil, location, and climate.
+                  When you see photos of the famed lavender fields of Provence, France, it&lsquo;s love at first sight. A shrubby perennial native to the Mediterranean region, lavender might be the most enjoyable of all herbs. It appeals to almost every sense, with its calming scent, pungent taste, dainty flowers, and velvety gray-green leaves. Bonus points: It is deer-resistant and attracts butterflies and pollinators! Successfully growing lavender, however, depends on your type of garden soil, location, and climate.
                   </p>
                   <p>Note that not all lavender varieties are suitable for cooking; some lavenders are only grown for their ornamental value. It is usually the flowers of culinary lavender that are dried for cooking although some recipes from the South of France feature the fragrant leaves.</p>
                 </article>
@@ -332,7 +332,7 @@ export default function Detail() {
                     If you live in a cold climate, USDA Hardiness Zone 4 or colder, lavender plants may not grow back the following spring unless you choose the hardiest varieties and offer winter protection.
                     </p>
                     <p>
-                    Snow cover is one of the best insulators for tender plants. If you don't have a reliable amount of snow, protect your plants from winter damage by covering them with dry leaves or straw overlaid with burlap to protect them from drying winds and ice. Remove the covering in early spring to allow the soil to warm and give plants good air circulation.
+                    Snow cover is one of the best insulators for tender plants. If you don&lsquo;t have a reliable amount of snow, protect your plants from winter damage by covering them with dry leaves or straw overlaid with burlap to protect them from drying winds and ice. Remove the covering in early spring to allow the soil to warm and give plants good air circulation.
                     </p>
                     <h3>
                     Fertilizer
@@ -356,10 +356,10 @@ export default function Detail() {
                     Potting and Repotting Lavender
                     </h3>
                     <p>
-                    Gardeners with little in-ground growing space or heavy soil may want to grow lavender in pots. Choose a pot that's just slightly larger than the root ball with a drainage hole. Clay pots offer better air circulation and dry out faster than plastic or ceramic pots. Plant in a soilless potting mix such as one designed for growing cactus or succulents to ensure excellent drainage.
+                    Gardeners with little in-ground growing space or heavy soil may want to grow lavender in pots. Choose a pot that&lsquo;s just slightly larger than the root ball with a drainage hole. Clay pots offer better air circulation and dry out faster than plastic or ceramic pots. Plant in a soilless potting mix such as one designed for growing cactus or succulents to ensure excellent drainage.
                     </p>
                     <p>
-                    Water sparingly but don't let the plants dry out completely. If you use a saucer below the pot, always drain off excess water. Keep the pots in full sun outdoors. You can grow lavender indoors, but recognize that the amount of light inside a house may never be enough to get flowers.
+                    Water sparingly but don&lsquo;t let the plants dry out completely. If you use a saucer below the pot, always drain off excess water. Keep the pots in full sun outdoors. You can grow lavender indoors, but recognize that the amount of light inside a house may never be enough to get flowers.
                     </p>
                   </section>
 
@@ -370,7 +370,7 @@ export default function Detail() {
                       </span>
                     </div>
                     <p>
-                    Lavender doesn't have any major pests, but root rot and leaf spot can bother this herb. Avoid overwatering and maintain good air circulation to minimize these problems.
+                    Lavender doesn&lsquo;t have any major pests, but root rot and leaf spot can bother this herb. Avoid overwatering and maintain good air circulation to minimize these problems.
                     </p>
                   </section>
 
@@ -384,7 +384,7 @@ export default function Detail() {
                     Lavender can be grown from seed, but it takes up to three years to grow into a substantial enough size for harvesting. Start with seeds from a seed catalog. Because most lavandin lavenders are a cross of two species, you won’t get good results with seeds that you collected from your own plants.
                     </p>
                     <p>
-                    To get a head start on the growing season, it's a good idea to start seeds indoors. Plant lavender seeds 1 inch apart, just barely covered with a seed-starting potting mix and keep the container moist but not waterlogged in a warm (65 to 70 degrees F) location. Germination starts in two to four weeks.
+                    To get a head start on the growing season, it&lsquo;s a good idea to start seeds indoors. Plant lavender seeds 1 inch apart, just barely covered with a seed-starting potting mix and keep the container moist but not waterlogged in a warm (65 to 70 degrees F) location. Germination starts in two to four weeks.
                     </p>
                     <p>
                     When plants reach 2 to 3 inches tall, lavender seedlings should be acclimated to outdoor conditions
@@ -409,7 +409,7 @@ by gradually increasing the amount of light they receive. Once they are "hardene
                     English Lavender
                     </h3>
                     <p>
-                    Considered one of the hardiest lavender, English lavender (Lavandula angustifolia) has dozens of cultivars to choose from. Popular English lavenders include 'Munstead' and 'Hidcote'. They grow well in locations with mild summer heat in Zones 5-9 and reach about 2 feet in height.
+                    Considered one of the hardiest lavender, English lavender (Lavandula angustifolia) has dozens of cultivars to choose from. Popular English lavenders include &lsquo;Munstead&lsquo; and &lsquo;Hidcote&lsquo;. They grow well in locations with mild summer heat in Zones 5-9 and reach about 2 feet in height.
                     </p>
                     <h3>
                     Lavandin

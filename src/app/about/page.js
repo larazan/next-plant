@@ -121,7 +121,7 @@ export default function About() {
             <div className="markdown-blog">
               <article className="flex flex-col space-y-6">
                 <span className="text-lg">
-                Our plants are packaged professionally with great care and adjust to the weather conditions in the customer's destination country so that the plants are in a safe condition during the shipping and will arrive safely. We use plant-safe wrappings and insulations to keep them at a stable temperature. We also receive special requests from customers regarding how to pack plants which according to the customer is better.
+                Our plants are packaged professionally with great care and adjust to the weather conditions in the customer&lsquo;s destination country so that the plants are in a safe condition during the shipping and will arrive safely. We use plant-safe wrappings and insulations to keep them at a stable temperature. We also receive special requests from customers regarding how to pack plants which according to the customer is better.
                 </span>
               </article>
             </div>

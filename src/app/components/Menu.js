@@ -173,7 +173,7 @@ const Menu = ({
                 </Link>
                 <Link
                   className="flex items-center h-8 text-base font-semibold text-white "
-                  href="/collection"
+                  href="/shop"
                 >
                   Shop All
                 </Link>

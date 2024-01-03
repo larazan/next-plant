@@ -9,6 +9,7 @@ import AdsModal from './components/AdsModal'
 import ArticleHome from './components/ArticleHome'
 import CookieConsent from './components/CookieConsent'
 import CategoryHome from './components/CategoryHome'
+import NewsFeed from './components/NewsFeed'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Header />
       <GoTop />
       <CookieConsent />
+      <NewsFeed />
       <Hero />
       <AdsModal />
       <ArticleHome />
