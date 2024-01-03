@@ -36,9 +36,9 @@ const SortOpt = () => {
             <span className="text-sm font-semibold">Filter</span>
           </button>
         </div>
-        <div className="flex flex-row items-center justify-between gap-3">
+        <div className="flex flex-row items-center justify-between gap-1 md:gap-2">
           <span className="flex-none text-sm text-gray-900">sort by:</span>
-          <select className="w-full text-sm text-gray-900 py-1 xl:py-2 focus:border-primary focus:ring focus:ring-inset focus:ring-primary disabled:bg-grayish disabled:bg-none h-full border border-gray-400 px-2 rounded-full pr-2 text-sm leading-none">
+          <select className="w-full text-sm text-gray-900 py-1 xl:py-2 tracking-tighter focus:border-primary focus:ring focus:ring-inset focus:ring-primary disabled:bg-grayish disabled:bg-none h-full border border-gray-400 px-2 rounded-full pr-2 text-sm leading-none">
             <option value="default" selected="">
               recommended sorting
             </option>

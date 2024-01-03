@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import DropMenu from "./DropMenu";
 
 const Footer = () => {
   return (
@@ -219,54 +220,131 @@ const Footer = () => {
               </svg>
             </a>
             <div className="md:hidden" data-headlessui-state="">
-              <button
-                className="flex w-full flex-row items-center justify-between border-t border-black/30 px-3 py-2 md:hidden"
-                id="headlessui-disclosure-button-:Rapll6:"
-                type="button"
-                aria-expanded="false"
-                data-headlessui-state=""
-              >
-                <span className="font-bold">Customer service</span>
-                <svg
-                  className="inline-block w-4 transform transition-transform"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                  ></path>
-                </svg>
-              </button>
+              <DropMenu title="Customer service" bg="00644b">
+                <div className="overflow-hidden pb-0">
+                  <div className="duration-300 px-0 pb-2">
+                    <ul className="flex flex-col flex-nowrap justify-start gap-2 px-6 py-3 text-white">
+                      <li>
+                        <Link
+                          href="/faqs"
+                          className="md:hover:underline"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                        >
+                          Frequently asked questions
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="/contact"
+                          className="md:hover:underline"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                        >
+                          Contact
+                        </Link>
+                      </li>
+                      <li>
+                        <a
+                          href="https://support.plnts.com/hc/en-us/categories/360002925560-Payments-and-Gifts"
+                          className="md:hover:underline"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                        >
+                          Payments
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://support.plnts.com/hc/en-us/categories/15121391044242-Delivery"
+                          className="md:hover:underline"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                        >
+                          Transport and delivery
+                        </a>
+                      </li>
+                      <li>
+                        <a className="md:hover:underline" href="/en/page/guarantee">
+                          Guarantee
+                        </a>
+                      </li>
+                      <li>
+                        <Link
+                          href="/return"
+                          className="md:hover:underline"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                        >
+                          Return policy
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </DropMenu>
             </div>
             <div className="md:hidden" data-headlessui-state="">
-              <button
-                className="flex w-full flex-row items-center justify-between border-t border-black/30 px-3 py-2 md:hidden"
-                id="headlessui-disclosure-button-:Rcpll6:"
-                type="button"
-                aria-expanded="false"
-                data-headlessui-state=""
-              >
-                <span className="font-bold">About PLNTS</span>
-                <svg
-                  className="inline-block w-4 transform transition-transform"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                  ></path>
-                </svg>
-              </button>
+              <DropMenu title="About PLNTS" bg="00644b">
+                <div className="overflow-hidden pb-0">
+                  <div className="duration-300 px-0 pb-3">
+                    <ul className="flex flex-col flex-nowrap justify-start gap-2 px-6 py-3 text-white">
+                      <li>
+                        <a
+                          className="md:hover:underline text-white"
+                          href="/en/page/giftcard"
+                        >
+                          Giftcard
+                        </a>
+                      </li>
+                      <li>
+                        <Link className="md:hover:underline" href="/about">
+                          About us
+                        </Link>
+                      </li>
+                      <li>
+                        <a
+                          className="md:hover:underline"
+                          href="/en/page/sustainability"
+                        >
+                          Sustainability
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          className="md:hover:underline"
+                          href="/en/page/meet-the-creators"
+                        >
+                          Meet the creators
+                        </a>
+                      </li>
+                      <li>
+                        <a className="md:hover:underline" href="/en/page/b2b">
+                          B2b
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          className="md:hover:underline"
+                          href="/en/page/collaborations"
+                        >
+                          Collaborations{" "}
+                        </a>
+                      </li>
+                      <li>
+                        <a className="md:hover:underline" href="/en/page/press">
+                          Press
+                        </a>
+                      </li>
+                      <li>
+                        <a className="md:hover:underline" href="/en/page/vacatures">
+                          Job opportunities
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </DropMenu>
             </div>
             <Link
               className="flex w-full flex-row items-center justify-between border-b border-t border-black/30 px-3 py-2 md:hidden md:hover:underline"
