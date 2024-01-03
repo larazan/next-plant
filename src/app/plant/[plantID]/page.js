@@ -388,7 +388,7 @@ export default function Detail() {
                     </p>
                     <p>
                     When plants reach 2 to 3 inches tall, lavender seedlings should be acclimated to outdoor conditions
-by gradually increasing the amount of light they receive. Once they are "hardened off," plant them outdoors in a sunny, well-drained spot.
+by gradually increasing the amount of light they receive. Once they are &quot;hardened off,&quot; plant them outdoors in a sunny, well-drained spot.
                     </p>
                     <p>
                     Most lavenders, especially lavandin, are started from cuttings instead of seeds. cut a 4- to 6-inch stem from a healthy plant in the late spring or early summer. Remove all the leaves from the bottom third of the cutting. Dip the cut end in rooting hormone powder and insert it in a 4-inch pot filled with damp potting mix. Place the pot in a sunny location and keep the soil evenly moist. After two to three months, when you gently tug on the cutting and it does not move, roots have formed. Wait for the plant to show some vigorous new growth before planting it in a larger pot or in the landscape.
