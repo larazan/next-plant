@@ -24,8 +24,8 @@ const CategoryHome = () => {
             </div>
             <div className="w-1/2 flex justify-center items-center bg-[#25958f] text-white">
               <div className="flex px-4 md:px-10 flex-col space-y-4 md:space-y-8">
-                <h1 className="text-lg md:text-lg md:text-4xl font-bold">Kitchen</h1>
-                <span className="text-xs md:text-md">
+                <h1 className="text-lg md:text-4xl font-bold">Kitchen</h1>
+                <span className="text-xs md:text-lg">
                 Styling indoor plants in your kitchen can help you achieve a tranquil sanctuary which aids relaxation. Choose air purifying plants to breathe cleaner air.
                 </span>
               </div>
@@ -36,7 +36,7 @@ const CategoryHome = () => {
             <div className="w-1/2 flex justify-center items-center bg-[#25958f] text-white">
               <div className="flex px-4 md:px-10 flex-col space-y-4 md:space-y-8">
                 <h1 className="text-lg md:text-4xl font-bold">Workspace</h1>
-                <span className="text-xs md:text-md">
+                <span className="text-xs md:text-lg">
                 Foliage-filled workspaces. Boost productivity and creativity by setting up a healthy workplace.
                 </span>
               </div>
@@ -53,7 +53,7 @@ const CategoryHome = () => {
             <div className="w-1/2 flex justify-center items-center bg-[#25958f] text-white">
               <div className="flex px-4 md:px-10 flex-col space-y-4 md:space-y-8">
                 <h1 className="text-lg md:text-4xl font-bold">Bathroom</h1>
-                <span className="text-xs md:text-md">
+                <span className="text-xs md:text-lg">
                 Create a botanical bathroom. Humidity-loving plants will thank you for placing them in steamy bathrooms and will require very little attention.
                 </span>
               </div>
@@ -64,7 +64,7 @@ const CategoryHome = () => {
             <div className="w-1/2 flex justify-center items-center bg-[#25958f] text-white">
               <div className="flex px-4 md:px-10 flex-col space-y-4 md:space-y-8">
                 <h1 className="text-lg md:text-4xl font-bold">Living Room</h1>
-                <span className="text-xs md:text-md">
+                <span className="text-xs md:text-lg">
                 Softening spaces in the living room. From full indoor jungle vibes to creating a focal point with a few statement plants, foliage in your living room will soften spaces and create signature accents.
                 </span>
               </div>

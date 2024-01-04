@@ -10,6 +10,11 @@ import Footer from '../components/Footer'
 import ProductSlider from "../components/ProductSlider";
 import Review from "../components/Review";
 import Guarantee from "../components/Guarantee";
+import Breadcrumb from "../components/Breadcrumb";
+import ThumbnailProduct from "../components/ThumbnailProduct";
+import DetailProduct from "../components/DetailProduct";
+import Specification from "../components/Specification";
+import Recommended from "../components/Recommended";
 
 export default function Detail() {
     const [count, setCount] = useState(0);
@@ -33,7 +38,21 @@ export default function Detail() {
       <Header />
       <GoTop />
 
-      <div className="flex relative z-10 items-center overflow-hidden bg-white">
+
+      <main className=" bg-white">
+      <section className="mx-auto max-w-[120rem] w-11/12 md:w-10/12">
+
+      
+        <Breadcrumb />
+        <div className="grid-container grid w-full grid-cols-1 gap-3 md:grid-cols-12 xl:gap-4 pt-0 md:pt-3 lg:grid-cols-productDetail lg:pt-6 pb-3 md:pb-10 md:px-3 lg:px-0">
+          {/* <ThumbnailProduct /> */}
+          <DetailProduct />
+          <Specification />
+        </div>
+        </section>
+      </main>
+
+      {/* <div className="flex relative z-10 items-center overflow-hidden bg-white">
         <div className="flex w-full flex-col md:flex-row items-center2 justify-center2 bg-[#f1f1f3]">
           <div className="w-full md:hidden flex flex-col px-4 py-2 bg-transparent">
             <div>
@@ -92,7 +111,7 @@ export default function Detail() {
           </div>
           <div className="w-full md:w-1/2 h-full bg-[#f1f1f3]">
             <div className="flex h-full justify-center items-center">
-              {/* <Image src={detail1} alt="" className="object-cover" /> */}
+              
               <ProductSlider />
             </div>
           </div>
@@ -297,10 +316,10 @@ export default function Detail() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <Review />
-
+<Recommended />
       <Guarantee />
 
       <Footer />

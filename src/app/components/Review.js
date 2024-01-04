@@ -35,51 +35,51 @@ const Review = () => {
   const shout = [
     {
       name: "Flean W.",
-      location: "New york",
+      date: "October 25, 2022",
       ava: ava5,
       img: review1,
       testimoni:
-        "I've been trying to work on my Common App for a while now, and felt like my ECs were lacking a little. IvyStat helped me into volunteership that then transitioned into an internship. This was the first time I got to work alongside other peers at an actual company. My experience was very valuable and helped me build a really good college application❤️",
+        "La pianta è arrivata bene imballata anche se il viaggio ha fatto si che il terriccio si perdesse all'interno della confezione. La variegarura non è delle più belle ,ma sicuramente nella crescita migliorerà. Terriccio pessimo , troppo bagnato e completamente compatto , le radici erano in sofferenza. Nel complesso non male ordinerò sicuramente altre piante .",
     },
     {
       name: "Sharon Blackwell",
-      location: "New york",
+      date: "October 25, 2022",
       ava: ava6,
       img: review2,
       testimoni:
-        "Ivy Stat made it really easy for me to apply to other freelance gig sites like Upwork. It was very hard to get into video editing without them since I didn't possess the necessary experience to showcase on these platforms.",
+        "IThis is probably the most beautiful plant I’ve ever ordered. Such beautiful variegation and it arrived with no damage at all.",
     },
     {
       name: "Cole A.",
-      location: "New york",
+      date: "October 25, 2022",
       ava: ava7,
       img: review3,
       testimoni:
-        "After a couple unpaid internships, it was super clear that companies just wanted to exploit child labour and look good on paper to show that they're hiring interns. Ivy Stat didn't just teach us a lot, but actually helped me start my own SEO service and even get customers connected to me. I will one day return the favour 🙏",
+        "Llegó a España en 1 semana, perfectamente empaquetada; con 6 hojas y muy buena variegación. Es una planta preciosa, sin duda la recomiendo.",
     },
     {
       name: "Kartik S. Kapoor",
-      location: "New york",
+      date: "October 25, 2022",
       ava: ava8,
       img: review4,
       testimoni:
-        "I was always looking to learn coding and all, but had no idea how to actually apply my skills into a real world scenario. With Ivy Stat, I could finally get a sense of direction and even got to work on a Chrome plug-in that helped me get my first ever internship ever!",
+        "Very happy to have this gorgeous MDV! She is just lovely! Every leaf perfect! Thank you!",
     },
     {
       name: "Tim Zhou",
-      location: "New york",
+      date: "October 25, 2022",
       ava: ava9,
       img: review5,
       testimoni:
-        "I've been working as a Target cashier for a couple months now, and this experience with Ivy Stat has really shown me a much better way to utilise my free time to make money. I'm thankful for all the tips and especially the resume I got from the program.",
+        "Stunning plant, huge leaves with lots of fenestrations and high stable variegation",
     },
     {
       name: "Cerila Smith",
-      location: "New york",
+      date: "October 25, 2022",
       ava: ava10,
       img: review6,
       testimoni:
-        "Wow! This was an incredible program! From the evening calls with other students across the world to the incredible resume building activity, this program was a total success. I will greatly miss everyone at Ivy Stat and am looking forward to keep on having more internships and paving me name in the industry!!!",
+        "The most beautiful plant I have ever seen: I am totally IN LOVE! Huge and amazingly variegated, literally stunning.",
     },
   ];
 
@@ -291,26 +291,26 @@ const Review = () => {
                     }}
                   >
                     <div className="flex flex-col space-y-3 px-0 w-full">
-                      <div className="flex justify-center items-center bg-white">
-                        <Image src={data.img} alt="" className="rounded-t w-full" />
+                      <div className="flex justify-center items-center bg-white ">
+                        <Image src={data.img} alt="" className="rounded-t w-full2 h-60 object-cover" />
                       </div>
                       <div className="flex space-x-3 px-3 w-full">
                         <div className="flex justify-center items-center">
                           <Image
                             src={data.ava}
                             alt=""
-                            className="rounded-full w-10 md:w-14"
+                            className="rounded-full w-10 md:w-12"
                           />
                         </div>
                         <div className="flex flex-col leading-tight">
-                          <h3 className="md:text-lg font-bold text-gray-900">{data.name}</h3>
+                          <h3 className="text-sm md:text-sm font-bold text-gray-900">{data.name}</h3>
                           <div className="text-sm font-mabry">
                             <div className="flex items-center space-x-0">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 24 24"
                                 fill="currentColor"
-                                className="w-4 h-4 text-gray-900"
+                                className="w-4 h-4 text-[#debe48]"
                               >
                                 <path
                                   fillRule="evenodd"
@@ -322,7 +322,7 @@ const Review = () => {
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 24 24"
                                 fill="currentColor"
-                                className="w-4 h-4 text-gray-900"
+                                className="w-4 h-4 text-[#debe48]"
                               >
                                 <path
                                   fillRule="evenodd"
@@ -334,7 +334,7 @@ const Review = () => {
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 24 24"
                                 fill="currentColor"
-                                className="w-4 h-4 text-gray-900"
+                                className="w-4 h-4 text-[#debe48]"
                               >
                                 <path
                                   fillRule="evenodd"
@@ -346,7 +346,7 @@ const Review = () => {
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 24 24"
                                 fill="currentColor"
-                                className="w-4 h-4 text-gray-900"
+                                className="w-4 h-4 text-[#debe48]"
                               >
                                 <path
                                   fillRule="evenodd"
@@ -358,7 +358,7 @@ const Review = () => {
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 24 24"
                                 fill="currentColor"
-                                className="w-4 h-4 text-gray-900"
+                                className="w-4 h-4 text-[#debe48]"
                               >
                                 <path
                                   fillRule="evenodd"
@@ -368,9 +368,10 @@ const Review = () => {
                               </svg>
                             </div>
                           </div>
+                          <span className="text-xs text-gray-400">{data.date}</span>
                         </div>
                       </div>
-                      <div className="flex px-3 pb-3 leading-tight text-gray-900">
+                      <div className="flex px-3 pb-3 leading-tight md:leading-snug text-[15px] text-gray-900">
                         <span className="">{data.testimoni}</span>
                       </div>
                     </div>

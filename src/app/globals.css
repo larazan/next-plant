@@ -190,6 +190,16 @@ input[type='number']::-webkit-outer-spin-button {
   --tw-border-opacity: 1;
   border-color: rgb(243 244 243/var(--tw-border-opacity));
 }
+.bg-grayish
+ {
+  --tw-border-opacity: 1;
+   background-color: rgb(243 244 243/var(--tw-border-opacity));
+ }
+
+ .bg-sold-out {
+  --tw-border-opacity: 1;
+  border-color: rgb(126 135 132/var(--tw-border-opacity));
+ }
 
 .member:after {
   top: -1rem;
@@ -275,3 +285,4 @@ input[type='number']::-webkit-outer-spin-button {
   content: var(--tw-content);
   border-radius: 9999px;
 }
+
