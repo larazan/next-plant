@@ -16,49 +16,49 @@ const Footer = () => {
               <span className="font-bold">Shop</span>
               <ul>
                 <li>
-                  <a className="md:hover:underline" href="/en/shop/all-plnts">
+                  <Link className="md:hover:underline" href="/shop">
                     All houseplants
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="md:hover:underline"
-                    href="/en/shop/babyplnts-home"
+                    href="/collection"
                   >
                     Pots
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="md:hover:underline"
-                    href="/en/shop/babyplnts-home"
+                    href="/collection"
                   >
                     Care
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="md:hover:underline"
-                    href="/en/shop/babyplnts-home"
+                    href="/collection"
                   >
                     Accessories
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="md:hover:underline"
-                    href="/en/shop/babyplnts-home"
+                    href="/collection"
                   >
                     Gifts
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <span className="mt-4 font-bold">My account</span>
               <ul>
                 <li>
-                  <a className="md:hover:underline" href="/en/account?t=login">
+                  <Link className="md:hover:underline" href="/login">
                     Log in
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -67,30 +67,27 @@ const Footer = () => {
               <span className="font-bold">Customer service</span>
               <ul>
                 <li>
-                  <a
-                    href="https://support.plnts.com/hc/en-us"
+                  <Link
+                    href="/faqs"
                     className="md:hover:underline"
-                    target="_blank"
                     rel="noreferrer noopener"
                   >
                     FAQs
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="https://support.plnts.com/hc/en-us/articles/360022189760-How-can-I-contact-your-support-"
+                  <Link
+                    href="/contact"
                     className="md:hover:underline"
-                    target="_blank"
                     rel="noreferrer noopener"
                   >
                     Contact
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a
-                    href="https://support.plnts.com/hc/en-us/categories/360002925560-Payments-and-Gifts"
+                    href="/"
                     className="md:hover:underline"
-                    target="_blank"
                     rel="noreferrer noopener"
                   >
                     Payments
@@ -98,28 +95,26 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://support.plnts.com/hc/en-us/categories/15121391044242-Delivery"
+                    href="/"
                     className="md:hover:underline"
-                    target="_blank"
                     rel="noreferrer noopener"
                   >
                     Transport and delivery
                   </a>
                 </li>
                 <li>
-                  <a className="md:hover:underline" href="/en/page/guarantee">
+                  <Link className="md:hover:underline" href="/">
                     Guarantee
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="https://support.plnts.com/hc/en-us/articles/360020705899-Return-Policy"
+                  <Link
+                    href="/return"
                     className="md:hover:underline"
-                    target="_blank"
                     rel="noreferrer noopener"
                   >
                     Return policy
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -128,19 +123,19 @@ const Footer = () => {
               <span className="font-bold">About PLNTS</span>
               <ul>
                 <li>
-                  <a className="md:hover:underline" href="/en/page/giftcard">
+                  <a className="md:hover:underline" href="/">
                     Giftcard
                   </a>
                 </li>
                 <li>
-                  <a className="md:hover:underline" href="/en/page/about-us">
+                  <Link className="md:hover:underline" href="/about">
                     About us
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a
                     className="md:hover:underline"
-                    href="/en/page/sustainability"
+                    href="/"
                   >
                     Sustainability
                   </a>
@@ -148,40 +143,40 @@ const Footer = () => {
                 <li>
                   <a
                     className="md:hover:underline"
-                    href="/en/page/meet-the-creators"
+                    href="/"
                   >
                     Meet the creators
                   </a>
                 </li>
                 <li>
-                  <a className="md:hover:underline" href="/en/page/b2b">
+                  <a className="md:hover:underline" href="/">
                     B2b
                   </a>
                 </li>
                 <li>
                   <a
                     className="md:hover:underline"
-                    href="/en/page/collaborations"
+                    href="/"
                   >
                     Collaborations{" "}
                   </a>
                 </li>
                 <li>
-                  <a className="md:hover:underline" href="/en/page/press">
+                  <a className="md:hover:underline" href="/">
                     Press
                   </a>
                 </li>
                 <li>
-                  <a className="md:hover:underline" href="/en/page/vacatures">
+                  <a className="md:hover:underline" href="/">
                     Job opportunities
                   </a>
                 </li>
               </ul>
             </div>
 
-            <a
+            <Link
               className=" flex w-full flex-row items-center justify-between border-t border-black/30 px-3 py-2 md:hidden "
-              href="/en/shop/all-plnts"
+              href="/collection"
             >
               All houseplants
               <svg
@@ -198,10 +193,10 @@ const Footer = () => {
                   d="M9 5l7 7-7 7"
                 ></path>
               </svg>
-            </a>
-            <a
+            </Link>
+            <Link
               className=" flex w-full flex-row items-center justify-between border-t border-black/30 px-3 py-2 md:hidden "
-              href="/en/shop/babyplnts-home"
+              href="/collection"
             >
               All Baby houseplants
               <svg
@@ -218,7 +213,7 @@ const Footer = () => {
                   d="M9 5l7 7-7 7"
                 ></path>
               </svg>
-            </a>
+            </Link>
             <div className="md:hidden" data-headlessui-state="">
               <DropMenu title="Customer service" bg="00644b">
                 <div className="overflow-hidden pb-0">
@@ -246,7 +241,7 @@ const Footer = () => {
                       </li>
                       <li>
                         <a
-                          href="https://support.plnts.com/hc/en-us/categories/360002925560-Payments-and-Gifts"
+                          href="/"
                           className="md:hover:underline"
                           target="_blank"
                           rel="noreferrer noopener"
@@ -256,7 +251,7 @@ const Footer = () => {
                       </li>
                       <li>
                         <a
-                          href="https://support.plnts.com/hc/en-us/categories/15121391044242-Delivery"
+                          href="/"
                           className="md:hover:underline"
                           target="_blank"
                           rel="noreferrer noopener"
@@ -265,7 +260,7 @@ const Footer = () => {
                         </a>
                       </li>
                       <li>
-                        <a className="md:hover:underline" href="/en/page/guarantee">
+                        <a className="md:hover:underline" href="/">
                           Guarantee
                         </a>
                       </li>
@@ -292,7 +287,7 @@ const Footer = () => {
                       <li>
                         <a
                           className="md:hover:underline text-white"
-                          href="/en/page/giftcard"
+                          href="/"
                         >
                           Giftcard
                         </a>
@@ -305,7 +300,7 @@ const Footer = () => {
                       <li>
                         <a
                           className="md:hover:underline"
-                          href="/en/page/sustainability"
+                          href="/"
                         >
                           Sustainability
                         </a>
@@ -313,31 +308,31 @@ const Footer = () => {
                       <li>
                         <a
                           className="md:hover:underline"
-                          href="/en/page/meet-the-creators"
+                          href="/"
                         >
                           Meet the creators
                         </a>
                       </li>
                       <li>
-                        <a className="md:hover:underline" href="/en/page/b2b">
+                        <a className="md:hover:underline" href="/">
                           B2b
                         </a>
                       </li>
                       <li>
                         <a
                           className="md:hover:underline"
-                          href="/en/page/collaborations"
+                          href="/"
                         >
                           Collaborations{" "}
                         </a>
                       </li>
                       <li>
-                        <a className="md:hover:underline" href="/en/page/press">
+                        <a className="md:hover:underline" href="/">
                           Press
                         </a>
                       </li>
                       <li>
-                        <a className="md:hover:underline" href="/en/page/vacatures">
+                        <a className="md:hover:underline" href="/">
                           Job opportunities
                         </a>
                       </li>
