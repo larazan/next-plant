@@ -74,7 +74,7 @@ const ThumbnailProduct = () => {
 
   return (
     <>
-      <div className="col-span-full md:col-span-5 md:col-start-1 lg:col-span-4 lg:col-start-3 pb-3 slider-wrapper">
+      <div className="col-span-full px-3 md:px-0 md:col-span-5 md:col-start-1 lg:col-span-4 lg:col-start-3 pb-3 slider-wrapper">
         <div className="relative ">
           <Slider
             {...settingsMain}
