@@ -15,6 +15,7 @@ import ThumbnailProduct from "../components/ThumbnailProduct";
 import DetailProduct from "../components/DetailProduct";
 import Specification from "../components/Specification";
 import Recommended from "../components/Recommended";
+import NewsFeed from "../components/NewsFeed";
 
 export default function Detail() {
     const [count, setCount] = useState(0);
@@ -38,14 +39,14 @@ export default function Detail() {
       <Header />
       <GoTop />
 
-
+<NewsFeed />
       <main className=" bg-white">
       <section className="mx-auto max-w-[120rem] w-11/12 md:w-10/12">
 
       
         <Breadcrumb />
         <div className="grid-container grid w-full grid-cols-1 gap-3 md:grid-cols-12 xl:gap-4 pt-0 md:pt-3 lg:grid-cols-productDetail lg:pt-6 pb-3 md:pb-10 md:px-3 lg:px-0">
-          {/* <ThumbnailProduct /> */}
+          <ThumbnailProduct />
           <DetailProduct />
           <Specification />
         </div>
