@@ -45,7 +45,7 @@ const ThumbnailProduct = () => {
   const settingsThumbs = {
     slidesToShow: 3,
     slidesToScroll: 1,
-    asNavFor: ".slider-for",
+    // asNavFor: ".slider-for",
     dots: true,
     centerMode: true,
     swipeToSlide: true,
@@ -102,7 +102,7 @@ const ThumbnailProduct = () => {
         <div className="thumbnail-slider-wrap py-2">
           <Slider
             {...settingsThumbs}
-            asNavFor={nav1}
+            // asNavFor={nav1}
             ref={(slider) => setSlider2(slider)}
           >
             {detailData.map((slide) => (

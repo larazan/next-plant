@@ -65,7 +65,7 @@ const NewsFeed = () => {
             <div 
               className="w-full shrink-0 text-center text-xs before:mr-2 before:text-gray-900 before:content-['\2713'] md:text-base xl:flex xl:w-auto xl:items-center xl:justify-center xl:text-left"
             >
-              <span>
+              <span className="text-gray-900">
                 <a
                   href="/"
                   className=""
@@ -77,7 +77,7 @@ const NewsFeed = () => {
             <div 
               className="w-full shrink-0 text-center text-xs before:mr-2 before:text-gray-900 before:content-['\2713'] md:text-base xl:flex xl:w-auto xl:items-center xl:justify-center xl:text-left"
             >
-              <span>
+              <span className="text-gray-900">
                 <a className="" href="/">
                   30 days PLNTS{" "}
                   <strong className="font-bold">health guarantee</strong>
@@ -85,7 +85,7 @@ const NewsFeed = () => {
               </span>
             </div>
             <div className="w-full shrink-0 text-center text-xs before:mr-2 before:text-primary before:content-['\2713'] md:text-base xl:flex xl:w-auto xl:items-center xl:justify-center xl:text-left">
-              <span>
+              <span className="text-gray-900">
                 <a
                   href="/"
                   className=""
@@ -97,7 +97,7 @@ const NewsFeed = () => {
               </span>
             </div>
             <div className="w-full shrink-0 text-center text-xs before:mr-2 before:text-primary before:content-['\2713'] md:text-base xl:flex xl:w-auto xl:items-center xl:justify-center xl:text-left xl:invisible 3xl:visible">
-              <span>
+              <span className="text-gray-900">
                 <a
                   href="/"
                   className=""
@@ -109,6 +109,7 @@ const NewsFeed = () => {
               </span>
             </div>
             <div className=" w-full shrink-0 text-center text-xs before:mr-2 before:text-primary before:content-['\2713'] md:text-base xl:hidden ">
+              <span className="text-gray-900">
               <a
                 href="/"
                 className=""
@@ -117,6 +118,7 @@ const NewsFeed = () => {
                 <strong className="font-bold">Free shipping</strong> for orders over
                 €75,-
               </a>
+              </span>
             </div> 
             </Slider>
           </div>

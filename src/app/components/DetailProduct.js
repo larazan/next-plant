@@ -8,16 +8,16 @@ const DetailProduct = () => {
         <div className="flex flex-row items-start justify-between">
           <div>
             <h1 className="flex flex-row flex-wrap font-sans text-base leading-normal">
-              <span className="order-3 w-full flex-auto basis-full italic">
+              <span className="order-3 w-full flex-auto basis-full italic text-gray-900">
                 Monstera&nbsp;
               </span>
-              <span className="order-2 basis-auto font-bold md:text-xl lg:text-4xl">
+              <span className="order-2 basis-auto font-bold md:text-xl lg:text-4xl text-gray-900">
                 Monstera Frozen Freckles
               </span>
             </h1>
           </div>
           <span className="flex flex-row items-center gap-2 md:hidden">
-            <span className="font-bold">€114.95</span>
+            <span className="font-bold text-gray-900">€114.95</span>
           </span>
         </div>
         <section className="flex flex-row justify-between">
@@ -89,7 +89,7 @@ const DetailProduct = () => {
         >
           <path d="M0,0 100,0" stroke="#707070" stroke-width="1"></path>
         </svg>
-        <ul className="space-y-2 my-4 md:hidden">
+        <ul className="space-y-2 my-4 md:hidden  text-gray-900">
           <li className="xl:justify-left before:mr-2 before:text-primary before:content-['\2713'] sm:text-sm md:flex lg:text-base xl:flex xl:w-auto xl:items-center xl:text-left">
             <span>
               Choose your{" "}
@@ -119,7 +119,7 @@ const DetailProduct = () => {
         <section className="flex flex-row flex-wrap justify-between">
           <h2 className="sr-only">Product options</h2>
           <div className="flex flex-col justify-start">
-            <span className="text-sm font-bold">Size</span>
+            <span className="text-sm font-bold text-gray-900">Size</span>
             <div className="flex flex-row flex-wrap justify-start gap-2 pt-2">
               <a href="/en/product/monstera-frozen-freckles-s">
                 <span className="flex h-10 w-10 cursor-pointer select-none items-center justify-center rounded-full bg-grayish text-sold-out">
@@ -143,7 +143,7 @@ const DetailProduct = () => {
           <path d="M0,0 100,0" stroke="#707070" stroke-width="1"></path>
         </svg>
         <section className="flex flex-col justify-between">
-          <p className="text-sm font-bold">
+          <p className="text-sm font-bold text-gray-900">
             Pot styles perfect for this plant:
           </p>
           <ul className="flex flex-row flex-wrap justify-start gap-3">
@@ -192,21 +192,21 @@ const DetailProduct = () => {
           <li className="grid grid-flow-row auto-rows-max grid-cols-3 gap-2">
             <div className="col-span-2 col-start-1 flex flex-row items-center justify-between">
               <span className="truncate">
-                <span className="truncate font-bold md:text-sm">
+                <span className="truncate font-bold md:text-sm text-gray-900">
                   Monstera Frozen Freckles
                 </span>{" "}
-                <span className="font-bold">
+                <span className="font-bold  text-gray-900">
                   (<span className="md:text-sm">M</span>)
                 </span>
               </span>
             </div>
             <div className="col-span-1 col-start-3 flex flex-row items-center justify-end">
               <span className="flex flex-row items-center gap-2 md:text-sm">
-                <span className="font-bold">€114.95</span>
+                <span className="font-bold  text-gray-900">€114.95</span>
               </span>
             </div>
             <div className="col-span-2 col-start-1 flex flex-row items-start justify-between md:col-span-1">
-              <span className="cursor-pointer text-sm underline text-sm">
+              <span className="cursor-pointer text-sm underline text-sm text-gray-900">
                 in nursery pot
               </span>
             </div>
@@ -219,7 +219,7 @@ const DetailProduct = () => {
                 >
                   -
                 </button>
-                <span className="grow text-center text-sm font-bold">1</span>
+                <span className="grow text-center text-sm font-bold text-gray-900">1</span>
                 <button
                   className="cursor-pointer inline-block leading-none select-none text-center focus:outline-none transition-colors disabled:cursor-not-allowed relative bg-grayish text-black hover:bg-[#7e8784] hover:text-white disabled:bg-grayish/40 disabled:hover:text-black rounded-full w-8 h-8 max-w-8 max-h-8 overflow-hidden flex justify-center items-center h-8 w-8 flex-none leading-[0]"
                   type="button"
@@ -240,7 +240,7 @@ const DetailProduct = () => {
           </li>
         </ul>
         <div className="hidden md:block">
-          <section className="flex flex-row justify-between">
+          <section className="flex flex-row justify-between text-gray-900">
             <h2 className="sr-only">Total product price</h2>
             <span className="text-2xl font-bold">Total:</span>
             <span className="text-2xl font-bold">€114.95</span>

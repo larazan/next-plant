@@ -26,7 +26,7 @@ const Breadcrumb = () => {
               <ul className="scrollbar-fix flex flex-row flex-nowrap justify-start overflow-x-scroll no-scrollbar">
                 <li className="">
                   <a
-                    className="whitespace-nowrap text-sm hover:underline"
+                    className="whitespace-nowrap text-sm hover:underline text-gray-900"
                     href="/en/shop/all-plnts"
                   >
                     All PLNTS
@@ -34,7 +34,7 @@ const Breadcrumb = () => {
                 </li>
                 <li className='before:inline before:px-3 before:text-sm before:content-[">"]'>
                   <a
-                    className="whitespace-nowrap text-sm hover:underline"
+                    className="whitespace-nowrap text-sm hover:underline text-gray-900"
                     href="/en/shop/rare-plnts"
                   >
                     RarePLNTS
@@ -42,7 +42,7 @@ const Breadcrumb = () => {
                 </li>
                 <li className='before:inline before:px-3 before:text-sm before:content-[">"]'>
                   <a
-                    className="whitespace-nowrap text-sm hover:underline"
+                    className="whitespace-nowrap text-sm hover:underline text-gray-900"
                     href="/en/shop/medium-houseplants"
                   >
                     Medium houseplants
@@ -50,7 +50,7 @@ const Breadcrumb = () => {
                 </li>
                 <li className='before:inline before:px-3 before:text-sm before:content-[">"]'>
                   <a
-                    className="whitespace-nowrap text-sm hover:underline"
+                    className="whitespace-nowrap text-sm hover:underline text-gray-900"
                     href="/en/shop/all-plnts/plantfamily:monstera"
                   >
                     Monstera
