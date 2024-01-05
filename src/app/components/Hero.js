@@ -63,7 +63,7 @@ const Hero = () => {
           <Slider {...settings}>
             {slides.map((data, index) => {
               return (
-                <Image src={data.url} alt="" className="md:h-[500px] w-full" />
+                <Image src={data.url} alt="" className="md:h-[500px] w-full" key={index} />
               );
             })}
           </Slider>
