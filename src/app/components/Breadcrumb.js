@@ -32,7 +32,7 @@ const Breadcrumb = () => {
                     All PLNTS
                   </a>
                 </li>
-                <li className='before:inline before:px-3 before:text-sm before:content-[">"]'>
+                <li className='before:inline before:px-3 before:text-sm before:content-[">"] text-gray-900'>
                   <a
                     className="whitespace-nowrap text-sm hover:underline text-gray-900"
                     href="/en/shop/rare-plnts"
@@ -40,7 +40,7 @@ const Breadcrumb = () => {
                     RarePLNTS
                   </a>
                 </li>
-                <li className='before:inline before:px-3 before:text-sm before:content-[">"]'>
+                <li className='before:inline before:px-3 before:text-sm before:content-[">"] text-gray-900'>
                   <a
                     className="whitespace-nowrap text-sm hover:underline text-gray-900"
                     href="/en/shop/medium-houseplants"
@@ -48,7 +48,7 @@ const Breadcrumb = () => {
                     Medium houseplants
                   </a>
                 </li>
-                <li className='before:inline before:px-3 before:text-sm before:content-[">"]'>
+                <li className='before:inline before:px-3 before:text-sm before:content-[">"] text-gray-900'>
                   <a
                     className="whitespace-nowrap text-sm hover:underline text-gray-900"
                     href="/en/shop/all-plnts/plantfamily:monstera"
@@ -56,7 +56,7 @@ const Breadcrumb = () => {
                     Monstera
                   </a>
                 </li>
-                <li className=" hidden before:inline before:px-3 before:text-sm md:block md:before:content-['>'] ">
+                <li className=" hidden before:inline before:px-3 before:text-sm md:block md:before:content-['>'] text-gray-900">
                   <span className="text-sm font-semibold text-sold-out underline">
                     Monstera Frozen Freckles
                   </span>
