@@ -30,7 +30,7 @@ const Specification = () => {
           </p>
           <p>
             <strong>
-              Please note: PLNTS.com holds the breeders' rights to this plant.
+              Please note: PLNTS.com holds the breeders&lsquo; rights to this plant.
               This means that it is not allowed to trade the plant or cuttings
               from the plant yourself.{" "}
             </strong>
