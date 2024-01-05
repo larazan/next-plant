@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import CartButton from "./CartButton";
 
 const DetailProduct = () => {
   return (
@@ -239,6 +240,7 @@ const DetailProduct = () => {
             </svg>
           </li>
         </ul>
+        <CartButton />
         <div className="hidden md:block">
           <section className="flex flex-row justify-between text-gray-900">
             <h2 className="sr-only">Total product price</h2>
@@ -253,6 +255,7 @@ const DetailProduct = () => {
           >
             <path d="M0,0 100,0" stroke="#707070" stroke-width="1"></path>
           </svg>
+          
           <section className="flex justify-between md:flex-col 3xl:flex-row-reverse 3xl:items-start">
             <div className="flex flex-row justify-end">
               <div className="relative mr-3 hidden md:flex">
@@ -331,8 +334,11 @@ const DetailProduct = () => {
               </li>
             </ul>
           </section>
+        
         </div>
+        
       </div>
+      
     </>
   );
 };
